@@ -40,7 +40,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz
 .row [class^=col] { padding: 0 15px; }
 .section-heading > div > span { background-color: rgb(99 74 255 / 15%); -webkit-border-radius: 22px; -moz-border-radius: 22px; -ms-border-radius: 22px; -o-border-radius: 22px; border-radius: 22px; display: inline-block; font: 1.6rem/normal "Inter-SemiBold"; letter-spacing: 2px; margin-bottom: 20px; padding: 12px 24px; text-transform: uppercase; }
 .section-heading-dark > div > span { background-color: rgb(99 74 255 / 15%); color: #634AFF; }
-.section-heading-light > div > span { background-color: rgb(255 255 255 / 15%); color: #FFFFFF; text-transform: capitalize; }
+.section-heading-light > div > span { background-color: rgb(255 255 255 / 15%); color: #FFFFFF; }
 .section-heading > h1 { font: 5rem/1.25 "PublicSans-Bold"; margin-bottom: 40px; }
 .section-heading > h1 > span { display: block; }
 .section-heading > h1 > span > span { background: linear-gradient(0deg, #9942FF, #FC067D); -webkit-background-clip: text; -webkit-text-fill-color: transparent; position: relative; z-index: 1; }
@@ -58,9 +58,9 @@ p { color: #626771; font: 1.8rem/2 "Inter-Medium"; }
 .btn-primary > a { -webkit-align-items: center; align-items: center; background: linear-gradient(to left, #4A6EFF, #A13DFF); -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; color: #FFFFFF; display: inline-flexbox; display: -ms-inline-flexbox; display: inline-flex; font: 1.8rem/56px "Inter-SemiBold"; height: 56px; padding: 0 28px; text-transform: uppercase; }
 .btn-primary > a > svg { margin-left: 10px; }
 .btn-primary > a:hover { background: linear-gradient(to right, #4A6EFF, #A13DFF); }
-.btn-secondary > a { -webkit-align-items: center; align-items: center; background-color: #FFFFFF; border: 2px solid #7418D5; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; color: #7418D5; display: inline-flexbox; display: -ms-inline-flexbox; display: inline-flex; font: 1.8rem/56px "Inter-SemiBold"; height: 56px; padding: 0 28px; text-transform: uppercase; }
+.btn-secondary > a { -webkit-align-items: center; align-items: center; background: linear-gradient(to right, #FFFFFF, #FFFFFF) padding-box, linear-gradient(#4A6EFF, #A13DFF) border-box; border: 2px solid transparent; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; color: #7418D5; display: inline-flexbox; display: -ms-inline-flexbox; display: inline-flex; font: 1.8rem/56px "Inter-SemiBold"; height: 56px; padding: 0 28px; text-transform: uppercase; }
 .btn-secondary > a > svg { margin-left: 10px; }
-.btn-secondary > a:hover { background-color: #7418D5; color: #FFFFFF; }
+.btn-secondary > a:hover { background: linear-gradient(to right, #4A6EFF, #A13DFF); border: 2px solid #FFFFFF; color: #FFFFFF; }
 .btn-secondary > a:hover > svg path { fill: #FFFFFF; stroke: #FFFFFF; }
 
 /*------- Common CSS Ends -------*/
@@ -255,7 +255,11 @@ p { color: #626771; font: 1.8rem/2 "Inter-Medium"; }
 
   /*------- Case Study Section Starts -------*/
 
-.bg-case-study { padding: 100px 15px 170px; }
+.bg-case-study { padding: 100px 15px 270px; position: relative; z-index: 1; }
+.box-case-study-left-top-shade { background-color: #FED8D8; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-filter: blur(250px); filter: blur(250px); height: 400px; left: 0; position: absolute; top: 0; width: 400px; z-index: -1; }
+.box-case-study-right-top-shade { background-color: #D8FEEC; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-filter: blur(150px); filter: blur(150px); height: 400px; position: absolute; right: 0; top: 0; width: 400px; z-index: -1; }
+.box-case-study-right-bottom-shade { background-color: #D8EEFE; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; bottom: -150px; -webkit-filter: blur(150px); filter: blur(150px); height: 400px; position: absolute; right: 0; width: 400px; z-index: -1; }
+.box-case-study-left-bottom-shade { background-color: #D8EEFE; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-filter: blur(150px); bottom: -150px; filter: blur(150px); height: 400px; left: 100px; position: absolute; width: 400px; z-index: -1; }
 .case-study-section-heading > h2 { margin-bottom: 60px; }
 .box-case-study-image-info { position: relative; z-index: 1; }
 .box-case-study-image > img { padding: 30px 0; width: 100%; }
@@ -270,7 +274,7 @@ p { color: #626771; font: 1.8rem/2 "Inter-Medium"; }
 .case-study-slider .slick-dots li { height: 130px; margin: 0 10px; width: 160px; }
 .case-study-slider .slick-dots li button { border: 2px solid #FFFFFF; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; height: 130px; width: 160px; }
 .case-study-slider .slick-dots li button::before { display: none; }
-.case-study-slider .slick-dots li.slick-active button { border: 2px solid #FC067D; }
+.case-study-slider .slick-dots li.slick-active button::after { background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(to right, #FB9004, #FC067D) border-box; border: 4px solid transparent; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; content: ""; display: block; height: calc(100% + 8px); left: -4px; position: absolute; top: -4px; width: calc(100% + 8px); z-index: -1; }
 .case-study-slider .slick-dots li:first-child button { background: url("../images/case-study-slide-1.svg") no-repeat top/cover; }
 .case-study-slider .slick-dots li:nth-child(2) button { background: url("../images/case-study-slide-2.svg") no-repeat top/cover; }
 .case-study-slider .slick-dots li:nth-child(3) button { background: url("../images/case-study-slide-3.svg") no-repeat top/cover; }
@@ -293,14 +297,67 @@ p { color: #626771; font: 1.8rem/2 "Inter-Medium"; }
 
   /*------- Case Study Section Ends -------*/
 
+  /*------- Testimonials Section Starts -------*/
+
+.bg-testimonials { background: linear-gradient(#222327, #18181B); overflow: hidden; position: relative; z-index: 1; }
+.box-testimonials-left-bottom-shade { background-color: rgb(129 6 252 / 70%); -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; bottom: -200px; -webkit-filter: blur(250px); filter: blur(250px); height: 400px; left: 0; position: absolute; width: 400px; z-index: -1; }
+.box-testimonials-right-top-shade { background-color: rgb(6 222 252 / 30%); -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-filter: blur(250px); filter: blur(250px); height: 400px; position: absolute; right: -150px; top: -200px; width: 400px; z-index: -1; }
+.testimonial-image > image { width: 100%; }
+.testimonial-info { position: relative; z-index: 1; }
+.testimonial-quote { position: absolute; right: 0; top: 0; z-index: -1; }
+.testimonial-quote > img { margin: 0 auto; opacity: 0.1; width: 70%; }
+.testimonial-info > h4 { background: linear-gradient(to right, #FB9004, #FC067D); -webkit-background-clip: text; font: 2.4rem/normal "PublicSans-Bold"; margin-bottom: 10px; -webkit-text-fill-color: transparent; }
+.testimonial-info > p { color: #FFFFFF; margin-bottom: 30px; }
+.testimonial-name-designation > p { color: #FFFFFF; font: 2rem/normal "Inter-Bold"; }
+.testimonial-name-designation > p > span { display: block; font: 1.6rem/normal "Inter-Medium"; padding-top: 10px; }
+.testimonial-ratings-listing { display: -webkit-box; display: -webkit-flex; display: flex; }
+.testimonial-ratings-listing > li { margin-right: 10px; }
+.testimonial-ratings-listing > li:last-child { margin-right: 0; }
+.testimonials-slider.slick-initialized .slick-slide { margin: 0 30px; opacity: 0.1; }
+.testimonials-slider.slick-initialized .slick-slide.slick-current { opacity: 1; }
+
+    /*------- Slick Slider Dots CSS Starts -------*/
+
+.testimonials-slider .slick-dots { bottom: -70px; }
+.testimonials-slider .slick-dots li { cursor: pointer; display: inline-block; height: auto; margin: 0 5px; padding: 0; position: relative; width: auto; }
+.testimonials-slider .slick-dots li button { background-color: #727987; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 12px; line-height: 12px; margin: 0; -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -ms-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear; width: 12px; }
+.testimonials-slider .slick-dots li.slick-active button { background-color: #9942FF; }
+.testimonials-slider .slick-dots li button::before { content: ""; }
+
+		/*------- Slick Slider Dots CSS Ends -------*/
+
+    /*------- Slick Slider Arrow CSS Starts -------*/
+
+.testimonials-slider .slick-prev,
+.testimonials-slider .slick-next { background: linear-gradient(#222327, #18181B) padding-box, linear-gradient(to right, #9942FF, #FC067D) border-box; border: 4px solid transparent; -webkit-border-radius: 50em; -moz-border-radius: 50em; -ms-border-radius: 50em; -o-border-radius: 50em; border-radius: 50em; font-size: initial; height: 50px; width: 50px; z-index: 1; }
+.testimonials-slider .slick-prev { bottom: -85px; left: 40%; top: auto; -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); }
+.testimonials-slider .slick-next { bottom: -85px; right: 40%; top: auto; -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); }
+.testimonials-slider .slick-prev::before,
+.testimonials-slider .slick-next::before { -webkit-align-items: center; align-items: center; color: #FFFFFF; content: "\f177"; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: "Font Awesome 6 Free"; font-weight: 900; justify-content: center; opacity: 1; }
+.testimonials-slider .slick-next::before {
+	content: "\f178";
+}
+.testimonials-slider .slick-prev:hover,
+.testimonials-slider .slick-next:hover { background: linear-gradient(#222327, #18181B) padding-box, linear-gradient(to left, #9942FF, #FC067D) border-box; }
+
+    /*------- Slick Slider Arrow CSS Ends -------*/
+
+  /*------- Testimonials Section Ends -------*/
+
   /*------- Contact Us Section Starts -------*/
 
+.bg-contact-us { position: relative; z-index: 1; }
+.box-contact-us-left-top-shade { background-color: #FED8D8; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-filter: blur(250px); filter: blur(250px); height: 400px; left: 0; position: absolute; top: 0; width: 400px; z-index: -1; }
+.box-contact-us-right-top-shade { background-color: #D8FEEC; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-filter: blur(150px); filter: blur(150px); height: 400px; position: absolute; right: 0; top: 0; width: 400px; z-index: -1; }
+.box-contact-us-right-bottom-shade { background-color: #D8EEFE; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; bottom: -150px; -webkit-filter: blur(150px); filter: blur(150px); height: 400px; position: absolute; right: 0; width: 400px; z-index: -1; }
+.box-contact-us-left-bottom-shade { background-color: #D8EEFE; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-filter: blur(150px); bottom: -150px; filter: blur(150px); height: 400px; left: 100px; position: absolute; width: 400px; z-index: -1; }
 .contact-us-section-heading > h2 { margin-bottom: 20px; }
 .contact-us-info > p,
 .contact-us-listing { margin-bottom: 40px; }
-.contact-us-listing > li { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; display: block; margin-bottom: 10px; padding: 15px 15px 15px 45px; position: relative; z-index: 1; }
+.contact-us-listing > li { border: 1px solid #FFFFFF; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; display: block; margin-bottom: 10px; margin-right: 250px; padding: 15px 15px 15px 45px; position: relative; z-index: 1; }
 .contact-us-listing > li:last-child { margin-bottom: 0; }
-.contact-us-listing > li:hover::after { background: linear-gradient(to right, rgb(153 66 255 / 30%), rgb(252 6 125 / 30%)); border: 1px solid #9942FF; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; content: ""; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 60%; z-index: -1; }
+.contact-us-listing > li:hover { background: linear-gradient(to right, #FFFFFF, #FFFFFF) padding-box, linear-gradient(to right, #9942FF, #FC067D) border-box; border: 1px solid transparent; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; }
+.contact-us-listing > li:hover::after { background: linear-gradient(to right, #9942FF, #FC067D) padding-box, linear-gradient(to right, #9942FF, #FC067D) border-box; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; content: ""; display: block; height: 100%; left: 0; opacity: 0.3; position: absolute; top: 0; width: 100%; z-index: -1; }
 .contact-us-listing > li:first-child::before,
 .contact-us-listing > li:nth-child(2)::before,
 .contact-us-listing > li:nth-child(3)::before { background: linear-gradient(to right, #FC067D 0%,#FB9004 100%); background-clip: text; -webkit-text-fill-color:transparent; content: "\f0e0"; display: block; font-family: "Font Awesome 6 Free"; font-size: 2rem; font-weight: 900; left: 15px; position: absolute; top: 12px; z-index: 1; }
@@ -315,9 +372,11 @@ p { color: #626771; font: 1.8rem/2 "Inter-Medium"; }
 .box-contact-us-radio-listing { margin-bottom: 20px; }
 .box-contact-us-radio-listing > label { margin: 0 10px 12px 0; position: relative; }
 input[class="radio-services"] { display: none; }
-input[class="radio-services"] + span { background: #FFFFFF; border: 1px solid #9942FF; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 1; }
-input[class="radio-services"] + span + span { color: #9942FF; display: block; font: 1.8rem/2 "Inter-Medium"; padding: 4px 32px; position: relative; z-index: 1; }
-input[class="radio-services"]:checked + span { background: linear-gradient(#9942FF, #FC067D); border: 1px solid #FFFFFF; }
+input[class="radio-services"] + span { background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(to right, #9942FF, #FC067D) border-box; border: 1px solid transparent; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 1; }
+input[class="radio-services"] + span + span { color: #9942FF; cursor: pointer; display: block; font: 1.8rem/2 "Inter-Medium"; padding: 4px 32px; position: relative; z-index: 1; }
+input[class="radio-services"]:hover + span,
+input[class="radio-services"]:checked + span { background: linear-gradient(to right, #9942FF, #FC067D); border: 1px solid #FFFFFF; }
+input[class="radio-services"]:hover + span + span,
 input[class="radio-services"]:checked + span + span { color: #FFFFFF; }
 .form-group-contact-us { margin-bottom: 20px; }
 .form-control-contact-us { border: 0; border-bottom: 2px solid #C0C4CB; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; color: #626771; font: 1.8rem/normal "Inter-Medium"; padding: 1rem 0px; }
