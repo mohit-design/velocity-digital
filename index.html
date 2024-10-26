@@ -19,6 +19,8 @@
   <!-- Slick Slider CSS -->
   <link rel="stylesheet" href="css/slick.min.css" type="text/css">
   <link rel="stylesheet" href="css/slick-theme.min.css" type="text/css">
+  <!-- Swiper Slider CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css" type="text/css">
   <!-- Style CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <!-- Media CSS -->
@@ -39,16 +41,33 @@
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <ul class="menu-listing-desktop">
-              <li class="active"><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Service</a></li>
-              <li><a href="">Enquiry</a></li>
-              <li><a href="">Contact Us</a></li>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li>
+                <a href="services.html">Services</a>
+                <ul class="sub-menu-listing-desktop">
+                  <li><a href="web-services.html">Web Services</a></li>
+                  <li><a href="web-development.html">Web Development</a></li>
+                  <li><a href="website-amc-service.html">Website AMC Service</a></li>
+                  <li><a href="software-services.html">Software Services</a></li>
+                  <li><a href="desktop-based-software-development.html">Desktop based Software Development</a></li>
+                  <li><a href="web-based-software-development.html">Web based Software Development</a></li>
+                  <li><a href="e-commerce-web.html">E-Commerce Web</a></li>
+                  <li><a href="portal-development.html">Portal Development</a></li>
+                  <li><a href="mobile-application.html">Mobile Application</a></li>
+                  <li><a href="digital-internet-marketing.html">Digital/Internet Marketing</a></li>
+                  <li><a href="graphic-designing.html">Graphic Designing</a></li>
+                  <li><a href="domain-hosting.html">Domain Hosting</a></li>
+                  <li><a href="it-consultant.html">IT Consultant</a></li>
+                </ul>
+              </li>
+              <li><a href="enquiry.html">Enquiry</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
           <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
             <div class="btn-secondary">
-              <a href="">Get a Quote
+              <a href="contact.html">Get a Quote
                 <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.24189 11.4117C0.924579 11.0822 0.924579 10.5479 1.24189 10.2184L10.4502 0.655902C10.7675 0.32639 11.2819 0.32639 11.5992 0.655902C11.9165 0.985415 11.9165 1.51968 11.5992 1.84919L2.39094 11.4117C2.07363 11.7412 1.55919 11.7412 1.24189 11.4117Z" fill="#7418D5" stroke="#7418D5" stroke-width="0.5"/>
                   <path d="M0.461914 1.25249C0.461914 0.786514 0.825675 0.408739 1.27441 0.408739L11.0245 0.408739C11.4732 0.408739 11.837 0.786514 11.837 1.25249L11.837 11.3775C11.837 11.8435 11.4732 12.2213 11.0245 12.2213C10.5756 12.2213 10.212 11.8435 10.212 11.3775L10.212 2.09624L1.27441 2.09624C0.825675 2.09624 0.461914 1.71858 0.461914 1.25249Z" fill="#7418D5" stroke="#7418D5" stroke-width="0.5"/>
@@ -64,6 +83,10 @@
   <main>
     <!-- Banner Section Starts -->
     <div class="container-fluid bg-banner" id="bgBanner">
+      <div class="box-banner-left-top-shade"></div>
+      <div class="box-banner-right-top-shade"></div>
+      <div class="box-banner-right-bottom-shade"></div>
+      <div class="box-banner-left-bottom-shade"></div>
       <div class="banner-social-media-acc">
         <ul class="banner-contact-social-media-acc-listing">
           <li><span>Follow on</span></li>
@@ -78,7 +101,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
             </a>
           </li>
-          <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+          <li><a href="https://www.instagram.com/velocity.digitall" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
           <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
         </ul>
       </div>
@@ -128,7 +151,7 @@
     </div>
     <!-- Banner Section Ends -->
     <!-- Trusted Companies Section Starts -->
-    <div class="container-fluid bg-trusted-companies" id="trustedCompanies">
+    <!-- <div class="container-fluid bg-trusted-companies" id="trustedCompanies">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-in" data-aos-duration="700">
@@ -169,7 +192,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Trusted Companies Section Ends -->
     <!-- Who We Are Section Starts -->
     <div class="container-fluid bg-who-we-are">
@@ -191,7 +214,7 @@
               <p data-aos="fade-in" data-aos-duration="700">At Velocity Digital, we are driven by clear objectives, with our primary goal being to offer exceptional service and support throughout your journey. From initial concept to final delivery, we stand by you every step of the way, ensuring a seamless experience without any hurdles. Recognized as one of the industry's fastest-growing companies, our success is echoed by the satisfaction of our valued clients. At Velocity Digital, we don’t just offer services—we cultivate lasting partnerships.</p>
               <p data-aos="fade-in" data-aos-duration="700">Welcome to Velocity Digital, where innovation meets excellence! As a leading digital marketing, branding, software, and website development company, we are dedicated to delivering top-notch IT solutions tailored to your needs at highly competitive rates. Our mission is to provide services that inspire, empower, and elevate your business.</p>
               <div class="btn-primary" data-aos="fade-in" data-aos-duration="700">
-                <a href="">Learn More
+                <a href="about.html">Learn More
                   <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.24189 11.9603C0.924579 11.6308 0.924579 11.0965 1.24189 10.767L10.4502 1.20451C10.7675 0.874997 11.2819 0.874997 11.5992 1.20451C11.9165 1.53402 11.9165 2.06828 11.5992 2.3978L2.39094 11.9603C2.07363 12.2898 1.55919 12.2898 1.24189 11.9603Z" fill="white" stroke="white" stroke-width="0.5"/>
                     <path d="M0.462402 1.8011C0.462402 1.33513 0.826163 0.957354 1.2749 0.957354L11.0249 0.957353C11.4737 0.957353 11.8374 1.33513 11.8374 1.8011L11.8374 11.9261C11.8374 12.3921 11.4737 12.7699 11.0249 12.7699C10.5761 12.7699 10.2124 12.3921 10.2124 11.9261L10.2124 2.64485L1.2749 2.64485C0.826164 2.64485 0.462402 2.26719 0.462402 1.8011Z" fill="white" stroke="white" stroke-width="0.5"/>
@@ -208,7 +231,7 @@
     <div class="container-fluid bg-our-services">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="fade-in" data-aos-duration="700">
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5" data-aos="fade-in" data-aos-duration="700">
             <section class="section-heading section-heading-dark our-services-section-heading" data-aos="fade-in" data-aos-duration="700">
               <h2>Unlock Your Brand’s <span>Potential with <span>Our Services</span></span></h2>
             </section>
@@ -225,7 +248,7 @@
               </div>
             </div>
             <div class="btn-primary" data-aos="fade-in" data-aos-duration="700">
-              <a href="">Get a Quote
+              <a href="contact.html">Get a Quote
                 <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.24189 11.9603C0.924579 11.6308 0.924579 11.0965 1.24189 10.767L10.4502 1.20451C10.7675 0.874997 11.2819 0.874997 11.5992 1.20451C11.9165 1.53402 11.9165 2.06828 11.5992 2.3978L2.39094 11.9603C2.07363 12.2898 1.55919 12.2898 1.24189 11.9603Z" fill="white" stroke="white" stroke-width="0.5"/>
                   <path d="M0.462402 1.8011C0.462402 1.33513 0.826163 0.957354 1.2749 0.957354L11.0249 0.957353C11.4737 0.957353 11.8374 1.33513 11.8374 1.8011L11.8374 11.9261C11.8374 12.3921 11.4737 12.7699 11.0249 12.7699C10.5761 12.7699 10.2124 12.3921 10.2124 11.9261L10.2124 2.64485L1.2749 2.64485C0.826164 2.64485 0.462402 2.26719 0.462402 1.8011Z" fill="white" stroke="white" stroke-width="0.5"/>
@@ -233,10 +256,10 @@
               </a>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
             <div class="row">
-              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="fade-in" data-aos-duration="700">
+                <a href="index.html" class="box-services box-services-column-1">
                   <div class="box-services-icon">
                     <img src="images/web-services.svg" class="img-fluid" alt="">
                   </div>
@@ -244,8 +267,8 @@
                     <h4>Web Services</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+                </a>
+                <a href="index.html" class="box-services">
                   <div class="box-services-icon">
                     <img src="images/software-services.svg" class="img-fluid" alt="">
                   </div>
@@ -253,8 +276,8 @@
                     <h4>Software Services</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+                </a>
+                <a href="index.html" class="box-services">
                   <div class="box-services-icon">
                     <img src="images/portal-development.svg" class="img-fluid" alt="">
                   </div>
@@ -262,8 +285,8 @@
                     <h4>Portal Development</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+                </a>
+                <a href="index.html" class="box-services">
                   <div class="box-services-icon">
                     <img src="images/graphic-designing.svg" class="img-fluid" alt="">
                   </div>
@@ -271,8 +294,8 @@
                     <h4>Graphic Designing</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+                </a>
+                <a href="index.html" class="box-services">
                   <div class="box-services-icon">
                     <img src="images/it-consultant.svg" class="img-fluid" alt="">
                   </div>
@@ -280,10 +303,10 @@
                     <h4>IT Consultant</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
+                </a>
               </div>
-              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="fade-in" data-aos-duration="700">
+                <a href="index.html" class="box-services box-services-column-2">
                   <div class="box-services-icon">
                     <img src="images/digital-marketing.svg" class="img-fluid" alt="">
                   </div>
@@ -291,8 +314,8 @@
                     <h4>Digital Marketing</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+                </a>
+                <a href="index.html" class="box-services">
                   <div class="box-services-icon">
                     <img src="images/e-commerce-web.svg" class="img-fluid" alt="">
                   </div>
@@ -300,8 +323,8 @@
                     <h4>E-Commerce Web</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+                </a>
+                <a href="index.html" class="box-services">
                   <div class="box-services-icon">
                     <img src="images/mobile-application.svg" class="img-fluid" alt="">
                   </div>
@@ -309,8 +332,8 @@
                     <h4>Mobile Application</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+                </a>
+                <a href="index.html" class="box-services">
                   <div class="box-services-icon">
                     <img src="images/domain-hosting.svg" class="img-fluid" alt="">
                   </div>
@@ -318,8 +341,8 @@
                     <h4>Domain Hosting</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
-                <div class="box-services" data-aos="fade-in" data-aos-duration="700">
+                </a>
+                <a href="index.html" class="box-services">
                   <div class="box-services-icon">
                     <img src="images/it-manpower.svg" class="img-fluid" alt="">
                   </div>
@@ -327,7 +350,7 @@
                     <h4>IT Manpower</h4>
                     <p>Responsive, scalable websites tailored to your business</p>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -340,7 +363,7 @@
       <div class="box-highlights-left-bottom-shade"></div>
       <div class="box-highlights-right-top-shade"></div>
       <div class="box-highlights-center-image">
-        <img src="images/highlights.svg" class="img-fluid" alt="">
+        <img src="images/highlights.png" class="img-fluid" alt="">
       </div>
       <div class="container">
         <div class="row">
@@ -597,17 +620,20 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-in" data-aos-duration="700">
-            <ul class="tab-listing">
-							<li class="active"><a href="#tab1">Web Development</a></li>
-							<li><a href="#tab2">App/Mobile</a></li>
-							<li><a href="#tab3">UI/UX Graphic Design</a></li>
-							<li><a href="#tab4">Marketing Tools</a></li>
-						</ul>
+            <div class="tab-listing-relative">
+              <ul class="tab-listing">
+                <li class="active"><a href="#tab1">Web Development</a></li>
+                <li><a href="#tab2">App/Mobile</a></li>
+                <li><a href="#tab3">UI/UX Graphic Design</a></li>
+                <li><a href="#tab4">Marketing Tools</a></li>
+              </ul>
+              <div class="tab-listing-border"></div>
+            </div>
           </div>
           <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8" data-aos="fade-in" data-aos-duration="700">
             <div class="tab-content active" id="tab1">
 							<div class="row">
-                <div class="col-12 col-sm col-md col-lg col-xl col-xxl">
+                <div class="col-6 col-sm col-md col-lg col-xl col-xxl">
                   <div class="tech-icon-name">
                     <svg width="58" height="66" viewBox="0 0 58 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M0.506197 2.25137L4.73767 56.2211C4.8012 57.0315 5.35144 57.7226 6.12874 57.9683L28.3949 65.0063C28.7886 65.1307 29.2114 65.1307 29.6051 65.0063L51.8712 57.9683C52.6485 57.7226 53.1988 57.0315 53.2623 56.2211L57.4938 2.25137C57.5848 1.09105 56.665 0.0996094 55.4977 0.0996094H2.50247C1.33516 0.0996094 0.415341 1.09105 0.506197 2.25137ZM46.6425 18.9964H19.0651L19.8974 26.6477H46.0427L44.3323 48.4607L29.0001 53.307L13.6678 48.4607L12.7743 37.0647H20.8218V42.6546L29.2151 44.9004L37.5582 42.6546L38.2055 33.7459H12.514L10.8083 11.9901H47.1916L46.6425 18.9964Z" fill="#FB9004"/>
@@ -615,7 +641,7 @@
                     <p>HTML 5</p>
                   </div>
                 </div>
-                <div class="col-12 col-sm col-md col-lg col-xl col-xxl">
+                <div class="col-6 col-sm col-md col-lg col-xl col-xxl">
                   <div class="tech-icon-name">            
                     <svg width="56" height="65" viewBox="0 0 56 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M0 0.0996094L5.1 57.6996L28 64.0996L50.892 57.7036L56 0.0996094H0Z" fill="#2196F3"/>
@@ -624,7 +650,7 @@
                     <p>CSS 3</p>
                   </div>
                 </div>
-                <div class="col-12 col-sm col-md col-lg col-xl col-xxl">
+                <div class="col-6 col-sm col-md col-lg col-xl col-xxl">
                   <div class="tech-icon-name">
                     <svg width="61" height="62" viewBox="0 0 61 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M0 0.0996094L5.08358 56.016L30.5 61.0996L55.9164 56.016L61 0.0996094H0ZM51.1989 51.7766L30.5 55.9146L9.8011 51.7766L5.56402 5.18319H55.4315L51.1989 51.7766Z" fill="black"/>
@@ -634,7 +660,7 @@
                     <p>Javascript</p>
                   </div>
                 </div>
-                <div class="col-12 col-sm col-md col-lg col-xl col-xxl">
+                <div class="col-6 col-sm col-md col-lg col-xl col-xxl">
                   <div class="tech-icon-name">
                     <svg width="51" height="57" viewBox="0 0 51 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M45.356 28.5996C48.0325 25.674 49.8999 22.7485 50.5845 20.1965C51.1448 18.0802 50.958 16.1506 50.0866 14.5945C47.8458 10.7353 42.1192 10.1751 35.459 11.6067C33.3427 5.13323 30.0437 0.589355 25.4998 0.589355C21.3294 0.589355 17.7815 4.82201 15.5407 11.6689C14.7315 11.4822 13.9845 11.3577 13.1754 11.2332C7.07536 10.3618 2.65597 11.5445 0.913116 14.6567C0.041687 16.2128 -0.145048 18.1424 0.415156 20.2587C1.09985 22.873 2.9672 25.7363 5.64373 28.6618C2.9672 31.5873 1.09985 34.5128 0.415156 37.0649C-0.145048 39.1812 0.041687 41.1108 0.913116 42.6669C2.34475 45.0945 5.3325 46.3394 9.50291 46.3394C10.6233 46.3394 11.8682 46.2149 13.1754 46.0281C13.9223 45.9036 14.7315 45.7791 15.5407 45.5924C17.7192 52.4394 21.3294 56.672 25.4998 56.672C30.0437 56.672 33.3427 52.0659 35.3968 45.5924C37.5754 46.0904 39.6294 46.3394 41.559 46.3394C45.4805 46.3394 48.5305 45.2189 50.0866 42.6047C50.958 41.1108 51.1448 39.1812 50.5845 37.0649C49.8999 34.3883 48.0325 31.5873 45.356 28.5996ZM4.14985 40.7373C3.77638 40.0526 3.71414 39.1189 4.02536 37.9985C4.52332 36.1934 5.95495 33.8281 8.25801 31.2138C9.81414 32.6455 11.6192 34.0771 13.4866 35.4465C13.7356 37.7496 14.0468 39.9281 14.5447 41.9822C9.19169 43.1026 5.27026 42.6669 4.14985 40.7373ZM10.8723 28.5996C11.557 27.9771 12.3662 27.2924 13.1754 26.67C13.1754 27.2924 13.1754 27.9771 13.1754 28.5996C13.1754 29.2843 13.1754 29.9067 13.1754 30.5291C12.3662 29.8445 11.6192 29.222 10.8723 28.5996ZM13.4866 21.7526C11.557 23.122 9.81414 24.5536 8.25801 25.9853C5.89271 23.4332 4.52332 21.0679 4.02536 19.2006C3.71414 18.0802 3.77638 17.1465 4.14985 16.4618C4.83454 15.2169 6.76414 14.5945 9.37842 14.5945C10.8723 14.5945 12.6152 14.7812 14.5447 15.2169C14.109 17.271 13.7356 19.4496 13.4866 21.7526ZM33.3427 18.9516C32.7825 18.6404 32.2223 18.2669 31.6621 17.9557C31.1019 17.7067 30.5417 17.3955 29.9815 17.0843C30.9152 16.7108 31.9111 16.3996 32.7825 16.0883C32.9692 17.0843 33.156 18.0179 33.3427 18.9516ZM19.8356 10.8598C21.4539 6.7516 23.5703 4.32405 25.4998 4.32405C27.4294 4.32405 29.5458 6.7516 31.1641 10.7975C31.4131 11.3577 31.5998 11.9802 31.8488 12.6026C29.7947 13.2251 27.6784 14.0343 25.5621 14.9679C23.4458 14.0343 21.2672 13.2251 19.2131 12.6026C19.3999 11.9179 19.5866 11.3577 19.8356 10.8598ZM18.2172 16.1506C19.1509 16.3996 20.0223 16.773 21.0182 17.0843C20.458 17.3955 19.8978 17.7067 19.3376 18.0179C18.7774 18.3291 18.2172 18.7026 17.657 19.0138C17.8437 18.0179 18.0305 17.0843 18.2172 16.1506ZM17.657 38.2475C18.2172 38.5587 18.7774 38.9322 19.3376 39.2434C19.8978 39.5547 20.458 39.8659 21.0182 40.1771C20.0845 40.5506 19.1509 40.8618 18.2172 41.1108C18.0305 40.1149 17.8437 39.1812 17.657 38.2475ZM31.1641 46.5261C29.5458 50.572 27.4294 52.9996 25.4998 52.9996C23.5703 52.9996 21.4539 50.572 19.8356 46.4638C19.5866 45.9036 19.3999 45.2812 19.2131 44.6587C21.2672 44.0363 23.3835 43.2271 25.5621 42.2934C27.6784 43.2271 29.7947 44.0363 31.8488 44.6587C31.5998 45.2812 31.4131 45.9036 31.1641 46.5261ZM32.7825 41.0485C31.8488 40.7373 30.9152 40.4261 29.9815 40.0526C30.5417 39.7414 31.1019 39.4302 31.6621 39.1189C32.2223 38.87 32.7825 38.4965 33.3427 38.1853C33.156 39.1812 32.9692 40.1149 32.7825 41.0485ZM33.9029 33.4547C32.658 34.3261 31.2886 35.1975 29.7947 36.0067C28.3631 36.8159 26.8692 37.5628 25.4998 38.2475C24.0682 37.5628 22.6366 36.8159 21.205 36.0067C19.7111 35.1975 18.4039 34.3261 17.0968 33.4547C16.9723 31.8985 16.9101 30.2802 16.9101 28.6618C16.9101 27.0434 16.9723 25.4251 17.0968 23.8689C18.4039 22.9975 19.7111 22.1883 21.205 21.3169C22.6366 20.5077 24.0682 19.7608 25.4998 19.0761C26.9315 19.7608 28.3631 20.5077 29.7947 21.3169C31.2886 22.1261 32.5958 22.9975 33.9029 23.8689C34.0274 25.4251 34.0896 27.0434 34.0896 28.6618C34.0896 30.2802 34.0274 31.8363 33.9029 33.4547ZM41.559 14.5945C44.2356 14.5945 46.1652 15.2792 46.9121 16.524C47.2856 17.2087 47.3478 18.1424 47.0366 19.2628C46.5386 21.0679 45.107 23.4332 42.8039 26.0475C41.2478 24.6159 39.4427 23.1842 37.5131 21.8149C37.2641 19.574 36.8907 17.3332 36.4549 15.2792C38.3223 14.7812 40.0652 14.5945 41.559 14.5945ZM37.7621 26.7322C38.5713 27.3547 39.3182 27.9771 40.0652 28.5996C39.3805 29.222 38.5713 29.9067 37.7621 30.5291C37.7621 29.8445 37.8243 29.222 37.8243 28.5996C37.8243 27.9771 37.8243 27.3547 37.7621 26.7322ZM46.8499 40.7373C45.7294 42.6669 41.808 43.1649 36.3927 42.0445C36.8907 39.9281 37.2019 37.7496 37.4509 35.5087C39.3805 34.1394 41.1233 32.7077 42.7417 31.2761C45.107 33.8281 46.4764 36.1934 46.9743 38.0608C47.2856 39.1812 47.2233 40.1149 46.8499 40.7373Z" fill="url(#reactTechUse1)"/>
@@ -663,7 +689,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-12 col-sm col-md col-lg col-xl col-xxl">
+                <div class="col-6 col-sm col-md col-lg col-xl col-xxl">
                   <div class="tech-icon-name">
                     <svg width="51" height="55" viewBox="0 0 51 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M49.2792 9.33848L25.9251 0.734314C25.6507 0.633484 25.3495 0.633484 25.0752 0.734314L1.72104 9.33848C1.46241 9.43356 1.24329 9.61288 1.09893 9.84759C0.954577 10.0823 0.893387 10.3588 0.925207 10.6325L4.61271 42.5908C4.63465 42.7836 4.70215 42.9684 4.80964 43.13C4.91713 43.2915 5.06152 43.4252 5.23088 43.5199L24.8975 54.5824C25.0814 54.6862 25.289 54.7408 25.5001 54.7408C25.7113 54.7408 25.9189 54.6862 26.1027 54.5824L45.7694 43.5199C45.9387 43.4252 46.0831 43.2915 46.1906 43.13C46.2981 42.9684 46.3656 42.7836 46.3876 42.5908L50.0751 10.6325C50.1069 10.3588 50.0457 10.0823 49.9013 9.84759C49.757 9.61288 49.5379 9.43356 49.2792 9.33848Z" fill="black"/>
@@ -681,7 +707,7 @@
                     <p>Angular JS</p>
                   </div>
                 </div>
-                <div class="col-12 col-sm col-md col-lg col-xl col-xxl">
+                <div class="col-6 col-sm col-md col-lg col-xl col-xxl">
                   <div class="tech-icon-name">            
                     <svg width="61" height="62" viewBox="0 0 61 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_158_2692)">
@@ -699,7 +725,7 @@
                     <p>PHP</p>
                   </div>
                 </div>
-                <div class="col-12 col-sm col-md col-lg col-xl col-xxl">
+                <div class="col-6 col-sm col-md col-lg col-xl col-xxl">
                   <div class="tech-icon-name">
                     <svg width="61" height="62" viewBox="0 0 61 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M30.1406 0.199717C27.6527 0.211274 25.277 0.423463 23.1865 0.793395C17.0283 1.88139 15.9101 4.15852 15.9101 8.35811V13.9045H30.4628V15.7532H15.9101H10.4486C6.21923 15.7532 2.51574 18.2953 1.35745 23.1313C0.0212924 28.6744 -0.0379205 32.1336 1.35745 37.9215C2.39195 42.2298 4.86233 45.2996 9.09171 45.2996H14.0953V38.6507C14.0953 33.8473 18.2512 29.6104 23.1865 29.6104H37.7223C41.7685 29.6104 44.9985 26.2789 44.9985 22.2154V8.35811C44.9985 4.41432 41.6714 1.45165 37.7223 0.793395C35.2223 0.377237 32.6284 0.188161 30.1406 0.199717ZM22.2706 4.66058C23.7738 4.66058 25.0013 5.90822 25.0013 7.44216C25.0013 8.97073 23.7738 10.2068 22.2706 10.2068C20.762 10.2068 19.5399 8.97073 19.5399 7.44216C19.5399 5.9081 20.762 4.66058 22.2706 4.66058Z" fill="url(#paint0_linear_158_2702)"/>
@@ -718,7 +744,7 @@
                     <p>Python</p>
                   </div>
                 </div>
-                <div class="col-12 col-sm col-md col-lg col-xl col-xxl">
+                <div class="col-6 col-sm col-md col-lg col-xl col-xxl">
                   <div class="tech-icon-name">
                     <svg width="51" height="62" viewBox="0 0 51 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M32.1888 61.1992C40.9675 59.293 50.9168 51.3364 50.9168 41.3079C50.9168 31.2794 41.72 25.4778 37.5396 22.7427C37.8741 25.1462 35.5155 26.721 33.5265 26.721C31.5375 26.721 29.5133 24.9805 29.5133 22.7427C29.5133 17.687 30.851 18.5158 30.851 13.4601C30.851 8.40438 30.2658 5.91797 24.1624 0.199219C26.3362 10.9737 16.9304 15.3249 9.44753 22.7427C1.96466 30.1605 0.0834961 36.6666 0.0834961 41.3079C0.0834961 47.1658 1.75564 57.9669 16.1361 61.1992C10.5623 56.1159 9.44753 53.4637 9.44753 50.5905C9.44753 47.7173 11.6771 43.1865 16.1361 39.9818C13.4607 46.7228 17.9198 47.9384 20.1493 47.9384C22.3788 47.9384 24.1624 45.9492 24.1624 42.634C24.1624 39.3188 18.8116 37.2882 18.8116 33.3514C18.8116 29.4146 21.487 26.721 21.487 26.721C21.487 26.721 20.5952 29.4284 24.1624 32.0253C27.7297 34.6222 40.2151 40.8659 40.2151 47.9384C40.2151 55.0108 37.5396 57.3867 32.1888 61.1992Z" fill="#E78424"/>
@@ -818,7 +844,7 @@
                       </ul>
                       <h4>Technology <span>Used</span></h4>
                       <div class="row">
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.503588 1.25795L2.95339 32.8095C2.99017 33.2833 3.30873 33.6873 3.75875 33.8309L16.6497 37.9454C16.8776 38.0182 17.1224 38.0182 17.3503 37.9454L30.2412 33.8309C30.6913 33.6873 31.0098 33.2833 31.0466 32.8095L33.4964 1.25795C33.5491 0.57961 33.0166 0 32.3407 0H1.65933C0.983515 0 0.450987 0.57961 0.503588 1.25795ZM27.2141 11.0473H11.2482L11.7301 15.5204H26.8668L25.8766 28.2727L17 31.1058L8.12347 28.2727L7.60616 21.6104H12.2653V24.8783L17.1245 26.1912L21.9548 24.8783L22.3295 19.6701H7.45549L6.46798 6.95138H27.532L27.2141 11.0473Z" fill="#FB9004"/>
@@ -826,7 +852,7 @@
                             <p>HTML 5</p>  
                           </div>
                         </div>
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">                       
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.475586 0L3.48542 33.9934L17.0002 37.7705L30.5102 33.9958L33.5248 0H0.475586Z" fill="#2196F3"/>
@@ -835,7 +861,7 @@
                             <p>CSS 3</p>  
                           </div>
                         </div>
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">                        
                             <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.5 0L3.50015 32.9999L18.5 36L33.4999 32.9999L36.5 0H0.5ZM30.7157 30.4979L18.5 32.94L6.28426 30.4979L3.78368 3.00015H33.2137L30.7157 30.4979Z" fill="black"/>
@@ -845,7 +871,7 @@
                             <p>Javascript</p>  
                           </div>
                         </div>
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">                    
                             <svg width="31" height="34" viewBox="0 0 31 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M27.2182 16.9999C28.7978 15.2733 29.8998 13.5468 30.3039 12.0407C30.6345 10.7917 30.5243 9.65291 30.0101 8.73454C28.6876 6.45699 25.308 6.12638 21.3774 6.97128C20.1284 3.15087 18.1815 0.469238 15.4998 0.469238C13.0386 0.469238 10.9447 2.9672 9.6223 7.00801C9.14475 6.89781 8.70393 6.82434 8.22638 6.75087C4.62638 6.23659 2.01821 6.93454 0.989644 8.77128C0.475358 9.68965 0.365154 10.8284 0.695766 12.0774C1.09985 13.6203 2.20189 15.3101 3.78148 17.0366C2.20189 18.7631 1.09985 20.4896 0.695766 21.9958C0.365154 23.2447 0.475358 24.3835 0.989644 25.3019C1.83454 26.7345 3.59781 27.4692 6.05903 27.4692C6.72026 27.4692 7.45495 27.3958 8.22638 27.2856C8.6672 27.2121 9.14475 27.1386 9.6223 27.0284C10.908 31.0692 13.0386 33.5672 15.4998 33.5672C18.1815 33.5672 20.1284 30.8488 21.3407 27.0284C22.6264 27.3223 23.8386 27.4692 24.9774 27.4692C27.2917 27.4692 29.0917 26.808 30.0101 25.2652C30.5243 24.3835 30.6345 23.2447 30.3039 21.9958C29.8998 20.4162 28.7978 18.7631 27.2182 16.9999ZM2.89985 24.1631C2.67944 23.759 2.6427 23.208 2.82638 22.5468C3.12026 21.4815 3.96515 20.0856 5.32434 18.5427C6.2427 19.3876 7.30801 20.2325 8.41005 21.0407C8.55699 22.3999 8.74066 23.6856 9.03454 24.8978C5.87536 25.559 3.56107 25.3019 2.89985 24.1631ZM6.86719 16.9999C7.27128 16.6325 7.74883 16.2284 8.22638 15.8611C8.22638 16.2284 8.22638 16.6325 8.22638 16.9999C8.22638 17.4039 8.22638 17.7713 8.22638 18.1386C7.74883 17.7345 7.30801 17.3672 6.86719 16.9999ZM8.41005 12.959C7.27128 13.7672 6.2427 14.6121 5.32434 15.457C3.92842 13.9509 3.12026 12.555 2.82638 11.4529C2.6427 10.7917 2.67944 10.2407 2.89985 9.83659C3.30393 9.10189 4.44271 8.73454 5.98556 8.73454C6.86719 8.73454 7.89577 8.84475 9.03454 9.10189C8.7774 10.3141 8.55699 11.5999 8.41005 12.959ZM20.1284 11.306C19.7978 11.1223 19.4672 10.9019 19.1366 10.7182C18.806 10.5713 18.4754 10.3876 18.1447 10.2039C18.6958 9.98352 19.2835 9.79985 19.7978 9.61618C19.908 10.2039 20.0182 10.755 20.1284 11.306ZM12.157 6.53046C13.1121 4.10597 14.3611 2.67332 15.4998 2.67332C16.6386 2.67332 17.8876 4.10597 18.8427 6.49373C18.9896 6.82434 19.0998 7.19169 19.2468 7.55903C18.0345 7.92638 16.7856 8.40393 15.5366 8.95495C14.2876 8.40393 13.0019 7.92638 11.7896 7.55903C11.8998 7.15495 12.0101 6.82434 12.157 6.53046ZM11.2019 9.65291C11.7529 9.79985 12.2672 10.0203 12.8549 10.2039C12.5243 10.3876 12.1937 10.5713 11.8631 10.755C11.5325 10.9386 11.2019 11.159 10.8713 11.3427C10.9815 10.755 11.0917 10.2039 11.2019 9.65291ZM10.8713 22.6937C11.2019 22.8774 11.5325 23.0978 11.8631 23.2815C12.1937 23.4652 12.5243 23.6488 12.8549 23.8325C12.3039 24.0529 11.7529 24.2366 11.2019 24.3835C11.0917 23.7958 10.9815 23.2447 10.8713 22.6937ZM18.8427 27.5794C17.8876 29.9672 16.6386 31.3998 15.4998 31.3998C14.3611 31.3998 13.1121 29.9672 12.157 27.5427C12.0101 27.2121 11.8998 26.8447 11.7896 26.4774C13.0019 26.1101 14.2509 25.6325 15.5366 25.0815C16.7856 25.6325 18.0345 26.1101 19.2468 26.4774C19.0998 26.8447 18.9896 27.2121 18.8427 27.5794ZM19.7978 24.3468C19.2468 24.1631 18.6958 23.9794 18.1447 23.759C18.4754 23.5754 18.806 23.3917 19.1366 23.208C19.4672 23.0611 19.7978 22.8407 20.1284 22.657C20.0182 23.2447 19.908 23.7958 19.7978 24.3468ZM20.459 19.8652C19.7243 20.3794 18.9162 20.8937 18.0345 21.3713C17.1896 21.8488 16.308 22.2896 15.4998 22.6937C14.6549 22.2896 13.8101 21.8488 12.9652 21.3713C12.0835 20.8937 11.3121 20.3794 10.5407 19.8652C10.4672 18.9468 10.4305 17.9917 10.4305 17.0366C10.4305 16.0815 10.4672 15.1264 10.5407 14.208C11.3121 13.6937 12.0835 13.2162 12.9652 12.7019C13.8101 12.2243 14.6549 11.7835 15.4998 11.3794C16.3447 11.7835 17.1896 12.2243 18.0345 12.7019C18.9162 13.1794 19.6876 13.6937 20.459 14.208C20.5325 15.1264 20.5692 16.0815 20.5692 17.0366C20.5692 17.9917 20.5325 18.9101 20.459 19.8652ZM24.9774 8.73454C26.557 8.73454 27.6958 9.13863 28.1366 9.87332C28.357 10.2774 28.3937 10.8284 28.2101 11.4896C27.9162 12.555 27.0713 13.9509 25.7121 15.4937C24.7937 14.6488 23.7284 13.8039 22.5896 12.9958C22.4427 11.6733 22.2223 10.3509 21.9652 9.13863C23.0672 8.84475 24.0958 8.73454 24.9774 8.73454ZM22.7366 15.8978C23.2141 16.2652 23.655 16.6325 24.0958 16.9999C23.6917 17.3672 23.2141 17.7713 22.7366 18.1386C22.7366 17.7345 22.7733 17.3672 22.7733 16.9999C22.7733 16.6325 22.7733 16.2652 22.7366 15.8978ZM28.0998 24.1631C27.4386 25.3019 25.1243 25.5958 21.9284 24.9345C22.2223 23.6856 22.406 22.3999 22.5529 21.0774C23.6917 20.2692 24.7203 19.4243 25.6754 18.5794C27.0713 20.0856 27.8794 21.4815 28.1733 22.5835C28.357 23.2447 28.3203 23.7958 28.0998 24.1631Z" fill="url(#reactTechUse3)"/>
@@ -903,7 +929,7 @@
                       </ul>
                       <h4>Technology <span>Used</span></h4>
                       <div class="row">
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.503588 1.25795L2.95339 32.8095C2.99017 33.2833 3.30873 33.6873 3.75875 33.8309L16.6497 37.9454C16.8776 38.0182 17.1224 38.0182 17.3503 37.9454L30.2412 33.8309C30.6913 33.6873 31.0098 33.2833 31.0466 32.8095L33.4964 1.25795C33.5491 0.57961 33.0166 0 32.3407 0H1.65933C0.983515 0 0.450987 0.57961 0.503588 1.25795ZM27.2141 11.0473H11.2482L11.7301 15.5204H26.8668L25.8766 28.2727L17 31.1058L8.12347 28.2727L7.60616 21.6104H12.2653V24.8783L17.1245 26.1912L21.9548 24.8783L22.3295 19.6701H7.45549L6.46798 6.95138H27.532L27.2141 11.0473Z" fill="#FB9004"/>
@@ -911,7 +937,7 @@
                             <p>HTML 5</p>  
                           </div>
                         </div>
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">                       
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.475586 0L3.48542 33.9934L17.0002 37.7705L30.5102 33.9958L33.5248 0H0.475586Z" fill="#2196F3"/>
@@ -969,7 +995,7 @@
                       </ul>
                       <h4>Technology <span>Used</span></h4>
                       <div class="row">
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.503588 1.25795L2.95339 32.8095C2.99017 33.2833 3.30873 33.6873 3.75875 33.8309L16.6497 37.9454C16.8776 38.0182 17.1224 38.0182 17.3503 37.9454L30.2412 33.8309C30.6913 33.6873 31.0098 33.2833 31.0466 32.8095L33.4964 1.25795C33.5491 0.57961 33.0166 0 32.3407 0H1.65933C0.983515 0 0.450987 0.57961 0.503588 1.25795ZM27.2141 11.0473H11.2482L11.7301 15.5204H26.8668L25.8766 28.2727L17 31.1058L8.12347 28.2727L7.60616 21.6104H12.2653V24.8783L17.1245 26.1912L21.9548 24.8783L22.3295 19.6701H7.45549L6.46798 6.95138H27.532L27.2141 11.0473Z" fill="#FB9004"/>
@@ -977,7 +1003,7 @@
                             <p>HTML 5</p>  
                           </div>
                         </div>
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">                       
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.475586 0L3.48542 33.9934L17.0002 37.7705L30.5102 33.9958L33.5248 0H0.475586Z" fill="#2196F3"/>
@@ -1035,7 +1061,7 @@
                       </ul>
                       <h4>Technology <span>Used</span></h4>
                       <div class="row">
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.503588 1.25795L2.95339 32.8095C2.99017 33.2833 3.30873 33.6873 3.75875 33.8309L16.6497 37.9454C16.8776 38.0182 17.1224 38.0182 17.3503 37.9454L30.2412 33.8309C30.6913 33.6873 31.0098 33.2833 31.0466 32.8095L33.4964 1.25795C33.5491 0.57961 33.0166 0 32.3407 0H1.65933C0.983515 0 0.450987 0.57961 0.503588 1.25795ZM27.2141 11.0473H11.2482L11.7301 15.5204H26.8668L25.8766 28.2727L17 31.1058L8.12347 28.2727L7.60616 21.6104H12.2653V24.8783L17.1245 26.1912L21.9548 24.8783L22.3295 19.6701H7.45549L6.46798 6.95138H27.532L27.2141 11.0473Z" fill="#FB9004"/>
@@ -1043,7 +1069,7 @@
                             <p>HTML 5</p>  
                           </div>
                         </div>
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">                       
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.475586 0L3.48542 33.9934L17.0002 37.7705L30.5102 33.9958L33.5248 0H0.475586Z" fill="#2196F3"/>
@@ -1101,7 +1127,7 @@
                       </ul>
                       <h4>Technology <span>Used</span></h4>
                       <div class="row">
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.503588 1.25795L2.95339 32.8095C2.99017 33.2833 3.30873 33.6873 3.75875 33.8309L16.6497 37.9454C16.8776 38.0182 17.1224 38.0182 17.3503 37.9454L30.2412 33.8309C30.6913 33.6873 31.0098 33.2833 31.0466 32.8095L33.4964 1.25795C33.5491 0.57961 33.0166 0 32.3407 0H1.65933C0.983515 0 0.450987 0.57961 0.503588 1.25795ZM27.2141 11.0473H11.2482L11.7301 15.5204H26.8668L25.8766 28.2727L17 31.1058L8.12347 28.2727L7.60616 21.6104H12.2653V24.8783L17.1245 26.1912L21.9548 24.8783L22.3295 19.6701H7.45549L6.46798 6.95138H27.532L27.2141 11.0473Z" fill="#FB9004"/>
@@ -1109,7 +1135,7 @@
                             <p>HTML 5</p>  
                           </div>
                         </div>
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">                       
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.475586 0L3.48542 33.9934L17.0002 37.7705L30.5102 33.9958L33.5248 0H0.475586Z" fill="#2196F3"/>
@@ -1167,7 +1193,7 @@
                       </ul>
                       <h4>Technology <span>Used</span></h4>
                       <div class="row">
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.503588 1.25795L2.95339 32.8095C2.99017 33.2833 3.30873 33.6873 3.75875 33.8309L16.6497 37.9454C16.8776 38.0182 17.1224 38.0182 17.3503 37.9454L30.2412 33.8309C30.6913 33.6873 31.0098 33.2833 31.0466 32.8095L33.4964 1.25795C33.5491 0.57961 33.0166 0 32.3407 0H1.65933C0.983515 0 0.450987 0.57961 0.503588 1.25795ZM27.2141 11.0473H11.2482L11.7301 15.5204H26.8668L25.8766 28.2727L17 31.1058L8.12347 28.2727L7.60616 21.6104H12.2653V24.8783L17.1245 26.1912L21.9548 24.8783L22.3295 19.6701H7.45549L6.46798 6.95138H27.532L27.2141 11.0473Z" fill="#FB9004"/>
@@ -1175,7 +1201,7 @@
                             <p>HTML 5</p>  
                           </div>
                         </div>
-                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                           <div class="box-case-study-tech-use">                       
                             <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0.475586 0L3.48542 33.9934L17.0002 37.7705L30.5102 33.9958L33.5248 0H0.475586Z" fill="#2196F3"/>
@@ -1226,224 +1252,229 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12" data-aos="fade-in" data-aos-duration="700">
-          <div class="testimonials-slider">
-            <div>
-              <div class="row">
-                <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                  <div class="testimonial-image">
-                    <img src="images/testimonial-1.svg" class="img-fluid" alt="">
-                  </div>
-                </div>
-                <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
-                  <div class="testimonial-info">
-                    <div class="testimonial-quote">
-                      <img src="images/quote.svg" class="img-fluid" alt="">
+        <div class="col-12">
+          <div class="swiper-container testimonial-slider-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="testimonial-image">
+                      <img src="images/testimonial-1.svg" class="img-fluid" alt="">
                     </div>
-                    <h4>Amazing!</h4>
-                    <p>Velocity Digital transformed our online presence. Their SEO strategy helped us increase organic traffic by 40% in just three months. The results speak for themselves!</p>
-                    <div class="row align-items-center">
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <div class="testimonial-name-designation">
-                          <p>– Sarah Thompson <span>CEO of BrightTech Solutions</span></p>
+                  </div>
+                  <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+                    <div class="testimonial-info">
+                      <div class="testimonial-quote">
+                        <img src="images/quote.svg" class="img-fluid" alt="">
+                      </div>
+                      <h4>Amazing!</h4>
+                      <p>Velocity Digital transformed our online presence. Their SEO strategy helped us increase organic traffic by 40% in just three months. The results speak for themselves!</p>
+                      <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <div class="testimonial-name-designation">
+                            <p>– Sarah Thompson <span>CEO of BrightTech Solutions</span></p>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <ul class="testimonial-ratings-listing">
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                          </ul>
                         </div>
                       </div>
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <ul class="testimonial-ratings-listing">
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="testimonial-image">
+                      <img src="images/testimonial-1.svg" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+                    <div class="testimonial-info">
+                      <div class="testimonial-quote">
+                        <img src="images/quote.svg" class="img-fluid" alt="">
+                      </div>
+                      <h4>Amazing!</h4>
+                      <p>Velocity Digital transformed our online presence. Their SEO strategy helped us increase organic traffic by 40% in just three months. The results speak for themselves!</p>
+                      <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <div class="testimonial-name-designation">
+                            <p>– Sarah Thompson <span>CEO of BrightTech Solutions</span></p>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <ul class="testimonial-ratings-listing">
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="row">
-                <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                  <div class="testimonial-image">
-                    <img src="images/testimonial-1.svg" class="img-fluid" alt="">
-                  </div>
-                </div>
-                <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
-                  <div class="testimonial-info">
-                    <div class="testimonial-quote">
-                      <img src="images/quote.svg" class="img-fluid" alt="">
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="testimonial-image">
+                      <img src="images/testimonial-1.svg" class="img-fluid" alt="">
                     </div>
-                    <h4>Amazing!</h4>
-                    <p>Velocity Digital transformed our online presence. Their SEO strategy helped us increase organic traffic by 40% in just three months. The results speak for themselves!</p>
-                    <div class="row align-items-center">
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <div class="testimonial-name-designation">
-                          <p>– Sarah Thompson <span>CEO of BrightTech Solutions</span></p>
-                        </div>
+                  </div>
+                  <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+                    <div class="testimonial-info">
+                      <div class="testimonial-quote">
+                        <img src="images/quote.svg" class="img-fluid" alt="">
                       </div>
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <ul class="testimonial-ratings-listing">
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                        </ul>
+                      <h4>Amazing!</h4>
+                      <p>Velocity Digital transformed our online presence. Their SEO strategy helped us increase organic traffic by 40% in just three months. The results speak for themselves!</p>
+                      <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <div class="testimonial-name-designation">
+                            <p>– Sarah Thompson <span>CEO of BrightTech Solutions</span></p>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <ul class="testimonial-ratings-listing">
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="row">
-                <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                  <div class="testimonial-image">
-                    <img src="images/testimonial-1.svg" class="img-fluid" alt="">
-                  </div>
-                </div>
-                <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
-                  <div class="testimonial-info">
-                    <div class="testimonial-quote">
-                      <img src="images/quote.svg" class="img-fluid" alt="">
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="testimonial-image">
+                      <img src="images/testimonial-1.svg" class="img-fluid" alt="">
                     </div>
-                    <h4>Amazing!</h4>
-                    <p>Velocity Digital transformed our online presence. Their SEO strategy helped us increase organic traffic by 40% in just three months. The results speak for themselves!</p>
-                    <div class="row align-items-center">
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <div class="testimonial-name-designation">
-                          <p>– Sarah Thompson <span>CEO of BrightTech Solutions</span></p>
+                  </div>
+                  <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+                    <div class="testimonial-info">
+                      <div class="testimonial-quote">
+                        <img src="images/quote.svg" class="img-fluid" alt="">
+                      </div>
+                      <h4>Amazing!</h4>
+                      <p>Velocity Digital transformed our online presence. Their SEO strategy helped us increase organic traffic by 40% in just three months. The results speak for themselves!</p>
+                      <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <div class="testimonial-name-designation">
+                            <p>– Sarah Thompson <span>CEO of BrightTech Solutions</span></p>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <ul class="testimonial-ratings-listing">
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                            <li>                             
+                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
+                              </svg>  
+                            </li>
+                          </ul>
                         </div>
                       </div>
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <ul class="testimonial-ratings-listing">
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                        </ul>
-                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> 
             </div>
-            <div>
-              <div class="row">
-                <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                  <div class="testimonial-image">
-                    <img src="images/testimonial-1.svg" class="img-fluid" alt="">
-                  </div>
-                </div>
-                <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
-                  <div class="testimonial-info">
-                    <div class="testimonial-quote">
-                      <img src="images/quote.svg" class="img-fluid" alt="">
-                    </div>
-                    <h4>Amazing!</h4>
-                    <p>Velocity Digital transformed our online presence. Their SEO strategy helped us increase organic traffic by 40% in just three months. The results speak for themselves!</p>
-                    <div class="row align-items-center">
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <div class="testimonial-name-designation">
-                          <p>– Sarah Thompson <span>CEO of BrightTech Solutions</span></p>
-                        </div>
-                      </div>
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <ul class="testimonial-ratings-listing">
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                          <li>                             
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.194 0.939194C10.5171 -0.0550995 11.9237 -0.0550981 12.2468 0.939196L13.9463 6.16963C14.0908 6.61429 14.5051 6.91535 14.9727 6.91535H20.4723C21.5177 6.91535 21.9524 8.25317 21.1066 8.86767L16.6574 12.1003C16.2791 12.3751 16.1208 12.8622 16.2653 13.3069L17.9648 18.5373C18.2878 19.5316 17.1498 20.3584 16.304 19.7439L11.8548 16.5113C11.4765 16.2365 10.9643 16.2365 10.5861 16.5113L6.13679 19.7439C5.29099 20.3584 4.15298 19.5316 4.47604 18.5373L6.17552 13.3069C6.31999 12.8622 6.16172 12.3751 5.78347 12.1003L1.33419 8.86767C0.488395 8.25316 0.923079 6.91535 1.96854 6.91535H7.46815C7.93569 6.91535 8.35006 6.61429 8.49454 6.16963L10.194 0.939194Z" fill="#FBC504"/>
-                            </svg>  
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="slider__pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
       </div>
@@ -1467,13 +1498,13 @@
             </div>
             <ul class="contact-us-listing">
               <li>
-                <a href="mailto:contact@velocity-digital.in">contact@velocity-digital.in</a>
+                <a href="mailto:parth@velocity-digital.in">parth@velocity-digital.in</a>
               </li>
               <li>
-                <a href="tel:+91860688856">+91 860688856</a>
+                <a href="tel:+919727594469">+91 9727594469</a>
               </li>
               <li>
-                <p>Vadodara, Gujarat 388306</p>
+                <p>C-19, Zaverchand Park, Opp. Reliance Mall , Vadodara-390020</p>
               </li>
             </ul>
             <div class="contact-us-social-media-acc" data-aos="fade-in" data-aos-duration="700">
@@ -1490,7 +1521,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
                   </a>
                 </li>
-                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="https://www.instagram.com/velocity.digitall" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
                 <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
               </ul>
             </div>
@@ -1547,12 +1578,15 @@
                   <input type="text" class="form-control form-control-contact-us" placeholder="Your Name">
                 </div>
                 <div class="form-group-contact-us">
+                  <input type="text" class="form-control form-control-contact-us" placeholder="Your Phone">
+                </div>
+                <div class="form-group-contact-us">
                   <input type="email" class="form-control form-control-contact-us" placeholder="Your Email">
                 </div>
                 <div class="form-group-contact-us">
                   <textarea class="form-control form-control-contact-us" placeholder="Message"></textarea>
                 </div>
-                <button type="submit" class="btn-submit">Submit
+                <button type="submit" class="btn-submit">Send Message
                   <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.24189 11.9603C0.924579 11.6308 0.924579 11.0965 1.24189 10.767L10.4502 1.20451C10.7675 0.874997 11.2819 0.874997 11.5992 1.20451C11.9165 1.53402 11.9165 2.06828 11.5992 2.3978L2.39094 11.9603C2.07363 12.2898 1.55919 12.2898 1.24189 11.9603Z" fill="white" stroke="white" stroke-width="0.5"/>
                     <path d="M0.462402 1.8011C0.462402 1.33513 0.826163 0.957354 1.2749 0.957354L11.0249 0.957353C11.4737 0.957353 11.8374 1.33513 11.8374 1.8011L11.8374 11.9261C11.8374 12.3921 11.4737 12.7699 11.0249 12.7699C10.5761 12.7699 10.2124 12.3921 10.2124 11.9261L10.2124 2.64485L1.2749 2.64485C0.826164 2.64485 0.462402 2.26719 0.462402 1.8011Z" fill="white" stroke="white" stroke-width="0.5"/>
@@ -1592,7 +1626,7 @@
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.instagram.com/velocity.digitall" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"/></svg>
                 </a>
               </li>
@@ -1610,11 +1644,11 @@
                   <h4>Main Link</h4>
                 </div>
                 <ul class="quick-links-listing">
-                  <li><a href="">Home</a></li>
-                  <li><a href="">About Us</a></li>
-                  <li><a href="">Services</a></li>
-                  <li><a href="">Enquiry</a></li>
-                  <li><a href="">Contact Us</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="enquiry.html">Enquiry</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </div>
               <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
@@ -1628,20 +1662,20 @@
                 <div class="row">
                   <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <ul class="quick-links-listing">
-                      <li><a href="">Web Services</a></li>
-                      <li><a href="">Software Services</a></li>
-                      <li><a href="">Portal Development</a></li>
-                      <li><a href="">Graphic Designing</a></li>
-                      <li><a href="">IT Consultant</a></li>
+                      <li><a href="web-services.html">Web Services</a></li>
+                      <li><a href="software-services.html">Software Services</a></li>
+                      <li><a href="portal-development.html">Portal Development</a></li>
+                      <li><a href="graphic-designing.html">Graphic Designing</a></li>
+                      <li><a href="it-consultant.html">IT Consultant</a></li>
                     </ul>
                   </div>
                   <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <ul class="quick-links-listing">
-                      <li><a href="">Digital Marketing</a></li>
-                      <li><a href="">E-Commerce Web</a></li>
-                      <li><a href="">Mobile Application</a></li>
-                      <li><a href="">Domain Hosting</a></li>
-                      <li><a href="">IT Manpower</a></li>
+                      <li><a href="digital-marketing.html">Digital marketing</a></li>
+                      <li><a href="e-commerce-web-html">E-Commerce Web</a></li>
+                      <li><a href="mobile-application.html">Mobile Application</a></li>
+                      <li><a href="domain-hosting.html">Domain Hosting</a></li>
+                      <li><a href="it-manpower.html">IT Manpower</a></li>
                     </ul>
                   </div>
                 </div>
@@ -1655,13 +1689,13 @@
                 </div>
                 <ul class="footer-contact-listing">
                   <li>
-                    <a href="mailto:contact@velocity-digital.in">contact@velocity-digital.in</a>
+                    <a href="mailto:parth@velocity-digital.in">parth@velocity-digital.in</a>
                   </li>
                   <li>
-                    <a href="tel:+91860688856">+91 860688856</a>
+                    <a href="tel:+919727594469">+91 9727594469</a>
                   </li>
                   <li>
-                    <p>Vadodara, Gujarat 388306</p>
+                    <p>C-19, Zaverchand Park, Opp. Reliance Mall , Vadodara-390020</p>
                   </li>
                 </ul>
               </div>
@@ -1694,10 +1728,10 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
               <ul class="extra-pages-listing">
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Terms & Conditions</a></li>
-                <li><a href="">Refund Policy</a></li>
-                <li><a href="">Cookies</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                <li><a href="refund-policy.html">Refund Policy</a></li>
+                <li><a href="cookies.html">Cookies</a></li>
               </ul>
             </div>
           </div>
@@ -1708,13 +1742,15 @@
   </footer>
   <!-- jQuery Library -->
   <script src="js/jquery-3.6.4.min.js"></script>
-  <!-- AOS Minified JS -->
+  <!-- AOS JS -->
   <script src="js/aos.min.js"></script>
   <!-- Smooth Scroll JS -->
 	<script src="js/TweenMax.min.js"></script>
 	<script src="js/ScrollToPlugin.min.js"></script>
-  <!-- Slick Slider Minified JS -->
+  <!-- Slick Slider JS -->
   <script src="js/slick.min.js"></script>
+  <!-- Swiper Slider JS -->
+  <script src="js/swiper.min.js"></script>
   <!-- Index JS -->
   <script src="js/index.js"></script>
   <!-- Main JS -->
