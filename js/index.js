@@ -24,8 +24,24 @@ $(document).ready(function() {
     rect = $('#bgBanner')[0].getBoundingClientRect();
   });
   // Technology Section Vertical Tab JS
-  $('.tab-listing > li > a').click(function(event){
+  function init() {
+    var initLink = $(".tab-listing .active");
+    var initHeight = initLink.outerHeight();
+    var initPosition = initLink.position().top;
+    $(".tab-listing-border").css({
+      'height': initHeight + 'px',
+      'top': initPosition
+    });
+  }
+  init();
+  $('.tab-listing > li > a').click(function(event) {
 		event.preventDefault();
+    var height = $(this).outerHeight();
+    var Position = $(this).position().top;
+    $(".tab-listing-border").css({
+      'height': height + 'px',
+      'top': Position
+    });
 		var active_tab_selector = $('.tab-listing > li.active > a').attr('href');
 		var actived_nav = $('.tab-listing > li.active');
 		actived_nav.removeClass('active');
@@ -35,6 +51,7 @@ $(document).ready(function() {
 		var target_tab_selector = $(this).attr('href');
 		$(target_tab_selector).removeClass('hide');
 		$(target_tab_selector).addClass('active');
+    init();
 	});
   // Case Study Slider JS
   $(".case-study-slider").slick({
@@ -44,5 +61,24 @@ $(document).ready(function() {
     speed: 700,
     slidesToShow: 1,
     adaptiveHeight: true
+  });
+  // Testimonial Slider JS
+  var $swiper = $(".swiper-container");
+  var $bottomSlideContent = null; 
+  var mySwiper = new Swiper(".swiper-container", {
+    spaceBetween: 1,
+    slidesPerView: 2,
+    centeredSlides: true,
+    roundLengths: true,
+    loop: true,
+    loopAdditionalSlides: 3,
+    pagination: {
+      el: '.slider__pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    }
   });
 });
