@@ -449,12 +449,28 @@
 
   /*------- Case Study Section Ends -------*/
 
+  /*------- Testimonials Section Starts -------*/
+
+.testimonial-slider-container .swiper-slide { padding: 0 5px; }
+.testimonial-info > h4 { font-size: 2rem; }
+.testimonial-info > p { margin-bottom: 20px; }
+.testimonial-ratings-listing { margin-top: 15px; }
+
+    /*------- Swiper Slider Arrow CSS Starts -------*/
+
+.testimonial-slider-container .swiper-button-prev { left: 25%; }
+.testimonial-slider-container .swiper-button-next { right: 25%; }
+
+    /*------- Swiper Slider Arrow CSS Ends -------*/
+
+  /*------- Testimonials Section Ends -------*/
+
   /*------- Contact Us Section Starts -------*/
 
 .contact-us-info > p,
 .contact-us-listing { margin-bottom: 20px; }
 .contact-us-listing > li { margin-right: 0; }
-.banner-contact-social-media-acc-listing { display: block; margin-bottom: 20px; }
+.banner-contact-social-media-acc-listing { display: block; margin-bottom: 30px; }
 .banner-contact-social-media-acc-listing > li:not(:first-child),
 .banner-contact-social-media-acc-listing > li:not(:nth-child(2)) { display: inline-block; margin-right: 10px; }
 .banner-contact-social-media-acc-listing > li:first-child { display: block; margin: 0 0 20px 0; }
@@ -462,6 +478,7 @@
 .banner-contact-social-media-acc-listing > li:last-child { margin-right: 0; }
 .box-contact-us { -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; padding: 20px; }
 .box-contact-us-heading > h4 { font-size: 1.8rem; margin-bottom: 20px; }
+.box-contact-us-radio-listing > label { margin: 0 10px 15px 0; }
 
   /*------- Contact Us Section Ends -------*/
 
@@ -647,6 +664,126 @@
 
 /*------- Home Page Starts -------*/
 
+  /*------- Desktop Header Section Starts -------*/
+
+.bg-header-desktop { display: none; }
+
+  /*------- Desktop Header Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner { overflow: hidden; }
+.banner-social-media-acc { bottom: 0; right: 30px; -webkit-transform: rotate(0); -moz-transform: rotate(0); -ms-transform: rotate(0); -o-transform: rotate(0); transform: rotate(0); }
+.box-banner-image-small-heart { left: -10px; }
+.box-banner-image-large-heart { right: -10px; }
+.box-banner-image-thumbs-up { bottom: 20px; left: -10px; }
+@keyframes thumbsUpAnimation {
+  0% { bottom: 20px; }
+  50% { bottom: 40px; }
+  100% { bottom: 20px; }
+}
+.banner-info > p { margin-bottom: 20px; }
+.banner-info > .btn-primary { margin-bottom: 30px; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Who We Are Section Starts -------*/
+
+.bg-who-we-are { padding-bottom: 0; }
+.who-we-are-image > img { margin-bottom: 30px; }
+
+  /*------- Who We Are Section Ends -------*/
+
+  /*------- Our Services Section Starts -------*/
+
+.our-services-info > p { margin-bottom: 40px; }
+.completed-work-info > div > img { width: 100px; }
+.completed-work-info > div > p { font-size: 2rem; }
+.completed-work-info > div > h2 { font-size: 7rem; }
+.box-services-column-1,
+.box-services-column-2 { margin-top: 40px; }
+.box-services { margin-bottom: 10px; }
+.box-services > .box-services-info > h4 { font-size: 2rem; }
+
+  /*------- Our Services Section Ends -------*/
+
+  /*------- Our Highlights Section Starts -------*/
+
+.bg-our-highlights { padding-bottom: 0; }
+.box-highlights-center-image { display: none; }
+.our-highlights-section-heading > h2 { margin-bottom: 30px; }
+.box-highlights { margin-bottom: 30px; }
+.box-highlights-left > .box-highlights-info > p,
+.box-highlights-right > .box-highlights-info > p { font-size: 2rem; }
+
+  /*------- Our Highlights Section Ends -------*/
+
+  /*------- Industry Section Starts -------*/
+
+.box-industry { padding: 30px 20px; }
+.box-industry-info > h4 { font-size: 2.2rem; }
+.industry-info > p { margin-bottom: 30px; }
+
+  /*------- Industry Section Ends -------*/
+
+  /*------- Technologies Section Starts -------*/
+
+.bg-technologies { padding-bottom: 0; }
+.box-technologies-shape { opacity: 0.2; }
+.technologies-info > p { margin-bottom: 30px; }
+
+    /*------- Vertical Tab CSS Starts -------*/
+
+.tab-listing-relative { margin-bottom: 40px; }
+.tab-listing > li { margin-bottom: 20px; }
+.tab-listing > li > a { font-size: 2.2rem; }
+
+    /*------- Vertical Tab CSS Ends -------*/
+
+  /*------- Technologies Section Ends -------*/
+
+  /*------- Case Study Section Starts -------*/
+
+.box-case-study-info > h3 { font-size: 2.7rem; }
+.box-case-study-info > h4 { font-size: 1.8rem; }
+
+    /*------- Case Study Slider Dots CSS Starts -------*/
+
+.case-study-slider .slick-dots { margin-top: 30px; position: static; }
+.case-study-slider .slick-dots li,
+.case-study-slider .slick-dots li button { height: 100px; width: 130px; }
+.case-study-slider .slick-dots li { margin-bottom: 25px; }
+
+    /*------- Case Study Slider Dots CSS Ends -------*/
+
+.box-case-study-desc > h4 { font-size: 2.2rem; }
+
+  /*------- Case Study Section Ends -------*/
+
+  /*------- Testimonials Section Starts -------*/
+
+.testimonial-slider-container .swiper-slide { padding: 0 5px; }
+.testimonial-info > h4 { font-size: 2rem; }
+.testimonial-info > p { margin-bottom: 20px; }
+
+    /*------- Swiper Slider Arrow CSS Starts -------*/
+
+.testimonial-slider-container .swiper-button-prev { left: 34%; }
+.testimonial-slider-container .swiper-button-next { right: 34%; }
+
+    /*------- Swiper Slider Arrow CSS Ends -------*/
+
+  /*------- Testimonials Section Ends -------*/
+
+  /*------- Contact Us Section Starts -------*/
+
+.contact-us-info > p,
+.contact-us-listing,
+.banner-contact-social-media-acc-listing { margin-bottom: 30px; }
+.contact-us-listing > li { margin-right: 0; }
+
+  /*------- Contact Us Section Ends -------*/
+
   /*------- Footer Section Starts -------*/
 
 .footer-logo > a { margin-bottom: 20px; }
@@ -679,6 +816,127 @@
 /*------- Common CSS Ends -------*/
 
 /*------- Home Page Starts -------*/
+
+  /*------- Desktop Header Section Starts -------*/
+
+.bg-header-desktop { display: none; }
+
+  /*------- Desktop Header Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner { overflow: hidden; }
+.banner-social-media-acc { bottom: 0; right: 30px; -webkit-transform: rotate(0); -moz-transform: rotate(0); -ms-transform: rotate(0); -o-transform: rotate(0); transform: rotate(0); }
+.box-banner-image-small-heart { left: -10px; }
+.box-banner-image-large-heart { right: -10px; }
+.box-banner-image-thumbs-up { bottom: 20px; left: -10px; }
+@keyframes thumbsUpAnimation {
+  0% { bottom: 20px; }
+  50% { bottom: 40px; }
+  100% { bottom: 20px; }
+}
+.banner-info > p { margin-bottom: 20px; }
+.banner-info > .btn-primary { margin-bottom: 30px; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Who We Are Section Starts -------*/
+
+.bg-who-we-are { padding-bottom: 0; }
+.who-we-are-image > img { margin-bottom: 30px; }
+
+  /*------- Who We Are Section Ends -------*/
+
+  /*------- Our Services Section Starts -------*/
+
+.our-services-info > p { margin-bottom: 40px; }
+.completed-work-info > div > img { width: 100px; }
+.completed-work-info > div > p { font-size: 2rem; }
+.completed-work-info > div > h2 { font-size: 7rem; }
+.box-services { margin-bottom: 10px; }
+.box-services > .box-services-info > h4 { font-size: 2rem; }
+
+  /*------- Our Services Section Ends -------*/
+
+  /*------- Our Highlights Section Starts -------*/
+
+.bg-our-highlights { padding-bottom: 0; }
+.our-highlights-section-heading > h2 { margin-bottom: 30px; }
+.box-highlights { margin-bottom: 30px; }
+.box-highlights-left > .box-highlights-info > p,
+.box-highlights-right > .box-highlights-info > p { font-size: 2rem; }
+
+  /*------- Our Highlights Section Ends -------*/
+
+  /*------- Industry Section Starts -------*/
+
+.bg-industry { padding-bottom: 0; }
+.box-industry { padding: 30px 20px; }
+.box-industry-info > h4 { font-size: 2.2rem; }
+.industry-info > p { margin-bottom: 30px; }
+.box-circular-progress-bar { margin-bottom: 30px; }
+
+  /*------- Industry Section Ends -------*/
+
+  /*------- Technologies Section Starts -------*/
+
+.bg-technologies { padding-bottom: 0; }
+.box-technologies-shape { opacity: 0.2; }
+.technologies-info > p { margin-bottom: 30px; }
+
+    /*------- Vertical Tab CSS Starts -------*/
+
+.tab-listing-relative { margin-bottom: 40px; }
+.tab-listing > li { margin-bottom: 20px; }
+.tab-listing > li > a { font-size: 2.2rem; }
+
+    /*------- Vertical Tab CSS Ends -------*/
+
+  /*------- Technologies Section Ends -------*/
+
+  /*------- Case Study Section Starts -------*/
+
+.case-study-section-heading > h2 { margin-bottom: 40px; }
+.box-case-study-info > h3 { font-size: 2.7rem; }
+.box-case-study-info > h4 { font-size: 1.8rem; }
+
+    /*------- Case Study Slider Dots CSS Starts -------*/
+
+.case-study-slider .slick-dots { margin-top: 30px; position: static; }
+.case-study-slider .slick-dots li,
+.case-study-slider .slick-dots li button { height: 100px; width: 130px; }
+.case-study-slider .slick-dots li { margin-bottom: 25px; }
+
+    /*------- Case Study Slider Dots CSS Ends -------*/
+
+.box-case-study-desc > h4 { font-size: 2.2rem; }
+
+  /*------- Case Study Section Ends -------*/
+
+  /*------- Testimonials Section Starts -------*/
+
+.testimonial-slider-container .swiper-slide { padding: 0 5px; }
+.testimonial-info > h4 { font-size: 2rem; }
+.testimonial-info > p { margin-bottom: 20px; }
+.testimonial-ratings-listing { margin-top: 15px; }
+
+    /*------- Swiper Slider Arrow CSS Starts -------*/
+
+.testimonial-slider-container .swiper-button-prev { left: 34%; }
+.testimonial-slider-container .swiper-button-next { right: 34%; }
+
+    /*------- Swiper Slider Arrow CSS Ends -------*/
+
+  /*------- Testimonials Section Ends -------*/
+
+  /*------- Contact Us Section Starts -------*/
+
+.contact-us-info > p,
+.contact-us-listing,
+.banner-contact-social-media-acc-listing { margin-bottom: 30px; }
+.contact-us-listing > li { margin-right: 0; }
+
+  /*------- Contact Us Section Ends -------*/
 
   /*------- Footer Section Starts -------*/
 
