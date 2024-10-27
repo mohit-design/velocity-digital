@@ -63,9 +63,9 @@ $(document).ready(function() {
     adaptiveHeight: true
   });
   // Testimonial Slider JS
-  var $swiper = $(".swiper-container");
+  var $swiper = $(".testimonial-slider-container");
   var $bottomSlideContent = null; 
-  var mySwiper = new Swiper(".swiper-container", {
+  var mySwiper = new Swiper(".testimonial-slider-container", {
     spaceBetween: 1,
     slidesPerView: 2,
     centeredSlides: true,
@@ -79,6 +79,20 @@ $(document).ready(function() {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
+    },
+    breakpoints: {
+      575: {
+        slidesPerView: 1,
+        spaceBetween: 10
+      },
+      767: {
+        slidesPerView: 1,
+        spaceBetween: 10
+      },
+      991: {
+        slidesPerView: 1,
+        spaceBetween: 10
+      }
     }
   });
 });
