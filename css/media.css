@@ -221,6 +221,20 @@
   /*------- Team Section Starts -------*/
 
 .our-team-heading-desc { width: 100%; }
+.our-team-section-heading > p { margin-bottom: 20px; }
+
+    /*------- Swiper Slider Dots CSS Starts -------*/
+
+.team-slider-container .swiper-pagination-bullets { margin-top: 60px; visibility: hidden; }
+
+		/*------- Swiper Slider Dots CSS Ends -------*/
+
+    /*------- Swiper Slider Arrow CSS Starts -------*/
+
+.team-slider-container .swiper-button-prev { left: 25%; }
+.team-slider-container .swiper-button-next { right: 25%; }
+
+    /*------- Swiper Slider Arrow CSS Ends -------*/
 
   /*------- Team Section Ends -------*/
 
@@ -312,6 +326,12 @@
 /*------- Services Page Ends -------*/
 
 /*------- Contact Us Page Starts -------*/
+
+  /*------- Map Section Starts -------*/
+
+.bg-contact-map { padding: 0; }
+
+  /*------- Map Section Ends -------*/
 
   /*------- FAQ Section Starts -------*/
 
@@ -520,6 +540,7 @@
 
   /*------- Mission and Vision Section Starts -------*/
 
+.bg-mission-vision { padding-bottom: 0; }
 .mission-heading-desc { padding-right: 0; }
 .vision-heading-desc { padding-left: 0; }
 .mission-vision-image > img,
@@ -546,6 +567,20 @@
   /*------- Team Section Starts -------*/
 
 .our-team-heading-desc { width: 100%; }
+.our-team-section-heading > p { margin-bottom: 30px; }
+
+    /*------- Swiper Slider Dots CSS Starts -------*/
+
+.team-slider-container .swiper-pagination-bullets { margin-top: 70px; }
+
+		/*------- Swiper Slider Dots CSS Ends -------*/
+
+    /*------- Swiper Slider Arrow CSS Starts -------*/
+
+.team-slider-container .swiper-button-prev { left: 15%; }
+.team-slider-container .swiper-button-next { right: 15%; }
+
+    /*------- Swiper Slider Arrow CSS Ends -------*/
 
   /*------- Team Section Ends -------*/
 
@@ -561,6 +596,7 @@
 
   /*------- Information Section Starts -------*/
 
+.bg-services-info-sp { padding-bottom: 0; }
 .services-image-sp > img,
 .services-info-sp > p { margin-bottom: 20px; }
 
@@ -638,6 +674,12 @@
 
 /*------- Contact Us Page Starts -------*/
 
+  /*------- Map Section Starts -------*/
+
+.bg-contact-map { padding: 0; }
+
+  /*------- Map Section Ends -------*/
+
   /*------- FAQ Section Starts -------*/
 
 .faq-heading-desc { margin: 0 auto 20px; width: 100%; }
@@ -714,7 +756,7 @@
 .our-highlights-section-heading > h2 { margin-bottom: 30px; }
 .box-highlights { margin-bottom: 30px; }
 .box-highlights-left > .box-highlights-info > p,
-.box-highlights-right > .box-highlights-info > p { font-size: 2rem; }
+.box-highlights-right > .box-highlights-info > p { font: 2rem/normal "PublicSans-Semibold"; }
 
   /*------- Our Highlights Section Ends -------*/
 
@@ -801,6 +843,159 @@
   /*------- Footer Section Ends -------*/
 
 /*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner-ip { overflow: hidden; }
+.banner-info-ip { width: 100%; }
+.btn-primary-read-more-banner-ap { margin-top: 20px; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Why Choose Us Section Starts -------*/
+
+.why-choose-us-image > img,
+.digital-excellence-info > p,
+.digital-excellence-info,
+.why-choose-us-info > p { margin-bottom: 20px; }
+
+  /*------- Why Choose Us Section Ends -------*/
+
+  /*------- Mission and Vision Section Starts -------*/
+
+.bg-mission-vision { padding-bottom: 0; }
+.mission-heading-desc { padding-right: 0; }
+.vision-heading-desc { padding-left: 0; }
+.mission-vision-image > img,
+.mission-vision-info { margin-bottom: 30px; }
+
+  /*------- Mission and Vision Section Ends -------*/
+
+  /*------- Values Section Starts -------*/
+
+.bg-values { padding-bottom: 0; }
+.values-section-heading > p,
+.box-values-choose-us { margin-bottom: 30px; }
+.box-values-choose-us { padding: 20px; }
+.box-values-choose-us > h4 { font-size: 2.2rem; }
+
+  /*------- Values Section Ends -------*/
+
+  /*------- Owner Message Section Starts -------*/
+
+.box-owner-message-shape { opacity: 0.1; }
+.owner-message-image > img { margin-bottom: 20px; width: 100%; }
+.owner-message-info > p:last-of-type { margin-bottom: 30px; }
+
+  /*------- Owner Message Section Ends -------*/
+
+  /*------- Team Section Starts -------*/
+
+.our-team-heading-desc { width: 100%; }
+.our-team-section-heading > p { margin-bottom: 30px; }
+.box-team-info { padding: 20px 15px; }
+
+    /*------- Swiper Slider Dots CSS Starts -------*/
+
+.team-slider-container .swiper-pagination-bullets { margin-top: 70px; }
+
+		/*------- Swiper Slider Dots CSS Ends -------*/
+
+    /*------- Swiper Slider Arrow CSS Starts -------*/
+
+.team-slider-container .swiper-button-prev { left: 25%; }
+.team-slider-container .swiper-button-next { right: 25%; }
+
+    /*------- Swiper Slider Arrow CSS Ends -------*/
+
+  /*------- Team Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+/*------- Services Page Starts -------*/
+
+  /*------- Information Section Starts -------*/
+
+.services-image-sp { text-align: center; }
+.services-image-sp > img { margin-bottom: 30px; width: 70%; }
+.services-info-sp > p { margin-bottom: 20px; }
+
+  /*------- Information Section Ends -------*/
+
+  /*------- Maintenance Approach Section Starts -------*/
+
+.maintenance-approach-section-heading-sp > h2 { margin-bottom: 30px; }
+.box-maintenance-approach > h4 { font-size: 2.2rem; }
+
+  /*------- Maintenance Approach Section Ends -------*/
+
+  /*------- Key Elements Section Starts -------*/
+
+.bg-key-elements { padding-bottom: 10px; }
+.box-key-elements { margin-bottom: 20px; }
+.box-key-elements > .box-key-elements-info > h4 { font-size: 2rem; }
+
+  /*------- Key Elements Section Ends -------*/
+
+  /*------- Why Choose Us Section Starts -------*/
+
+.bg-why-choose-us-sp { padding-bottom: 0; }
+
+  /*------- Why Choose Us Section Ends -------*/
+
+  /*------- SDLC Process Section Starts -------*/
+
+.mobile-android-app-info-sp,
+.sdlc-process-info > p { margin-bottom: 30px; }
+.box-sdlc-process { margin-bottom: 0; }
+.box-sdlc-process > h4 { font-size: 2.2rem; }
+
+  /*------- SDLC Process Section Ends -------*/
+
+  /*------- Benefits Section Starts -------*/
+
+.bg-benefits { padding-bottom: 0; }
+.box-benefits > h4 { font-size: 2.2rem; }
+
+  /*------- Benefits Section Ends -------*/
+
+  /*------- Portal Development, Mobile Application, Digital Marketing, and Graphic Designing Information Section Starts -------*/
+
+.bg-digital-internet-marketing-banner-ip,
+.bg-graphic-designing-banner-ip,
+.bg-domain-hosting-banner-ip { padding-bottom: 0; }
+.digital-marketing-info-sp,
+.graphic-designing-info-sp,
+.domain-hosting-info-sp { margin-top: 20px; }
+.digital-marketing-info-sp > p:last-child,
+.graphic-designing-info-sp > p:last-child,
+.domain-hosting-info-sp > p:last-child,
+.graphic-designing-services-listing > li:last-child { margin-bottom: 30px; }
+
+  /*------- Portal Development, Mobile Application, Digital Marketing, and Graphic Designing Information Section Ends -------*/
+
+/*------- Services Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+  /*------- Map Section Starts -------*/
+
+.bg-contact-map { padding: 0; }
+
+  /*------- Map Section Ends -------*/
+
+  /*------- FAQ Section Starts -------*/
+
+.faq-heading-desc { margin: 0 auto 20px; width: 100%; }
+.faq-accordion-default > .faq-accordion-heading { margin-top: 20px; padding: 20px 30px 20px 20px; }
+.faq-accordion-default > .faq-accordion-heading + .faq-accordion-body { padding: 20px; }
+.faq-accordion-right { margin-top: 20px; }
+
+  /*------- FAQ Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
 
 }
 
@@ -953,5 +1148,154 @@
   /*------- Footer Section Ends -------*/
 
 /*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner-ip { overflow: hidden; }
+.banner-info-ip { width: 100%; }
+.btn-primary-read-more-banner-ap { margin-top: 20px; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Why Choose Us Section Starts -------*/
+
+.digital-excellence-info > p,
+.digital-excellence-info,
+.why-choose-us-info > p { margin-bottom: 30px; }
+
+  /*------- Why Choose Us Section Ends -------*/
+
+  /*------- Mission and Vision Section Starts -------*/
+
+.bg-mission-vision { padding-bottom: 0; }
+.mission-heading-desc { padding-right: 0; }
+.vision-heading-desc { padding-left: 0; }
+.mission-vision-image > img,
+.mission-vision-info { margin-bottom: 30px; }
+
+  /*------- Mission and Vision Section Ends -------*/
+
+  /*------- Values Section Starts -------*/
+
+.bg-values { padding-bottom: 0; }
+.values-section-heading > p,
+.box-values-choose-us { margin-bottom: 30px; }
+.box-values-choose-us { padding: 20px; }
+
+  /*------- Values Section Ends -------*/
+
+  /*------- Owner Message Section Starts -------*/
+
+.box-owner-message-shape { display: none; }
+.owner-message-image > img { width: 100%; }
+.owner-message-info > p:last-of-type { margin-bottom: 30px; }
+
+  /*------- Owner Message Section Ends -------*/
+
+  /*------- Team Section Starts -------*/
+
+.our-team-heading-desc { width: 100%; }
+.our-team-section-heading > p { margin-bottom: 30px; }
+
+    /*------- Swiper Slider Dots CSS Starts -------*/
+
+.team-slider-container .swiper-pagination-bullets { margin-top: 70px; }
+
+		/*------- Swiper Slider Dots CSS Ends -------*/
+
+    /*------- Swiper Slider Arrow CSS Starts -------*/
+
+.team-slider-container .swiper-button-prev { left: 30%; }
+.team-slider-container .swiper-button-next { right: 30%; }
+
+    /*------- Swiper Slider Arrow CSS Ends -------*/
+
+  /*------- Team Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+/*------- Services Page Starts -------*/
+
+  /*------- Information Section Starts -------*/
+
+.services-image-sp { text-align: center; }
+.services-info-sp > p { margin-bottom: 20px; }
+
+  /*------- Information Section Ends -------*/
+
+  /*------- Maintenance Approach Section Starts -------*/
+
+.maintenance-approach-section-heading-sp > h2 { margin-bottom: 30px; }
+.box-maintenance-approach > h4 { font-size: 2.2rem; }
+
+  /*------- Maintenance Approach Section Ends -------*/
+
+  /*------- Key Elements Section Starts -------*/
+
+.bg-key-elements { padding-bottom: 10px; }
+.box-key-elements { margin-bottom: 20px; }
+.box-key-elements > .box-key-elements-info > h4 { font-size: 2rem; }
+
+  /*------- Key Elements Section Ends -------*/
+
+  /*------- Why Choose Us Section Starts -------*/
+
+.bg-why-choose-us-sp { padding-bottom: 0; }
+
+  /*------- Why Choose Us Section Ends -------*/
+
+  /*------- SDLC Process Section Starts -------*/
+
+.mobile-android-app-info-sp,
+.sdlc-process-info > p { margin-bottom: 30px; }
+.box-sdlc-process { margin-bottom: 0; }
+.box-sdlc-process > h4 { font-size: 2.2rem; }
+
+  /*------- SDLC Process Section Ends -------*/
+
+  /*------- Benefits Section Starts -------*/
+
+.bg-benefits { padding-bottom: 0; }
+.box-benefits > h4 { font-size: 2.2rem; }
+
+  /*------- Benefits Section Ends -------*/
+
+  /*------- Portal Development, Mobile Application, Digital Marketing, and Graphic Designing Information Section Starts -------*/
+
+.bg-digital-internet-marketing-banner-ip,
+.bg-graphic-designing-banner-ip,
+.bg-domain-hosting-banner-ip { padding-bottom: 0; }
+.digital-marketing-info-sp,
+.graphic-designing-info-sp,
+.domain-hosting-info-sp { margin-top: 20px; }
+.digital-marketing-info-sp > p:last-child,
+.graphic-designing-info-sp > p:last-child,
+.domain-hosting-info-sp > p:last-child,
+.graphic-designing-services-listing > li:last-child { margin-bottom: 30px; }
+
+  /*------- Portal Development, Mobile Application, Digital Marketing, and Graphic Designing Information Section Ends -------*/
+
+/*------- Services Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+  /*------- Map Section Starts -------*/
+
+.bg-contact-map { padding: 0; }
+
+  /*------- Map Section Ends -------*/
+
+  /*------- FAQ Section Starts -------*/
+
+.faq-heading-desc { margin: 0 auto 20px; width: 100%; }
+.faq-accordion-default > .faq-accordion-heading { margin-top: 20px; padding: 20px 30px 20px 20px; }
+.faq-accordion-default > .faq-accordion-heading + .faq-accordion-body { padding: 20px; }
+.faq-accordion-right { margin-top: 20px; }
+
+  /*------- FAQ Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
 
 }
