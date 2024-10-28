@@ -212,7 +212,7 @@ p { color: #626771; font: 1.8rem/2 "Inter-Medium"; }
 .box-highlights-left > .box-highlights-info { padding-left: 15px; }
 .box-highlights-right > .box-highlights-info { padding-right: 15px; }
 .box-highlights-right { -webkit-align-items: center; align-items: center; display: -webkit-flex; display: -webkit-box; display: -ms-flexbox; display: flex; float: right; justify-content: flex-end; }
-.box-highlights-left > .box-highlights-info > p { color: #FFFFFF; font: 2.4rem/normal "PublicSans-Bold"; }
+.box-highlights-left > .box-highlights-info > p { color: #FFFFFF; font: 2.4rem/normal "PublicSans-Semibold"; }
 .box-highlights-right > .box-highlights-info > p { color: #FFFFFF; font: 2.4rem/normal "PublicSans-Semibold"; }
 
   /*------- Our Highlights Section Ends -------*/
