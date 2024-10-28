@@ -1,8 +1,5 @@
 /*------- Font Family Starts -------*/
 
-@font-face { font-family: "PublicSans-Light"; src: url("../fonts/PublicSans-Light.ttf"); }
-@font-face { font-family: "PublicSans-Regular"; src: url("../fonts/PublicSans-Regular.ttf"); }
-@font-face { font-family: "PublicSans-Medium"; src: url("../fonts/PublicSans-Medium.ttf"); }
 @font-face { font-family: "PublicSans-Semibold"; src: url("../fonts/PublicSans-Semibold.ttf"); }
 @font-face { font-family: "PublicSans-Bold"; src: url("../fonts/PublicSans-Bold.ttf"); }
 @font-face { font-family: "Inter-Regular"; src: url("../fonts/Inter-Regular.ttf"); }
@@ -115,7 +112,7 @@ p { color: #626771; font: 1.8rem/2 "Inter-Medium"; }
 .box-banner-right-top-shade { background-color: #D8FEEC; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-filter: blur(150px); filter: blur(150px); height: 400px; position: absolute; right: 0; top: -120px; width: 400px; z-index: -1; }
 .box-banner-right-bottom-shade { background-color: #D8EEFE; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; bottom: -150px; -webkit-filter: blur(150px); filter: blur(150px); height: 400px; position: absolute; right: 0; width: 400px; z-index: -1; }
 .box-banner-left-bottom-shade { background-color: #D8EEFE; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-filter: blur(150px); bottom: -150px; filter: blur(150px); height: 400px; left: 100px; position: absolute; width: 400px; z-index: -1; }
-.banner-social-media-acc { bottom: 370px; position: absolute; right: 65px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); transform-origin: top right; z-index: -1; }
+.banner-social-media-acc { bottom: 370px; position: absolute; right: 65px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); transform-origin: top right; z-index: 1; }
 .banner-contact-social-media-acc-listing { -webkit-align-items: center; align-items: center; display: -webkit-box; display: -webkit-flex; display: flex; }
 .banner-contact-social-media-acc-listing > li { margin-right: 15px; }
 .banner-contact-social-media-acc-listing > li:last-child { margin-right: 0; }
@@ -215,7 +212,7 @@ p { color: #626771; font: 1.8rem/2 "Inter-Medium"; }
 .box-highlights-left > .box-highlights-info { padding-left: 15px; }
 .box-highlights-right > .box-highlights-info { padding-right: 15px; }
 .box-highlights-right { -webkit-align-items: center; align-items: center; display: -webkit-flex; display: -webkit-box; display: -ms-flexbox; display: flex; float: right; justify-content: flex-end; }
-.box-highlights-left > .box-highlights-info > p { color: #FFFFFF; font: 2.4rem/normal "PublicSans-Semibold"; }
+.box-highlights-left > .box-highlights-info > p { color: #FFFFFF; font: 2.4rem/normal "PublicSans-Bold"; }
 .box-highlights-right > .box-highlights-info > p { color: #FFFFFF; font: 2.4rem/normal "PublicSans-Semibold"; }
 
   /*------- Our Highlights Section Ends -------*/
