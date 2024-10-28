@@ -716,6 +716,7 @@
 
 .bg-banner { overflow: hidden; }
 .banner-social-media-acc { bottom: 0; right: 30px; -webkit-transform: rotate(0); -moz-transform: rotate(0); -ms-transform: rotate(0); -o-transform: rotate(0); transform: rotate(0); }
+.banner-contact-social-media-acc-listing > li > span { font: 3rem/normal "PublicSans-Bold"; }
 .box-banner-image-small-heart { left: -10px; }
 .box-banner-image-large-heart { right: -10px; }
 .box-banner-image-thumbs-up { bottom: 20px; left: -10px; }
@@ -756,7 +757,7 @@
 .our-highlights-section-heading > h2 { margin-bottom: 30px; }
 .box-highlights { margin-bottom: 30px; }
 .box-highlights-left > .box-highlights-info > p,
-.box-highlights-right > .box-highlights-info > p { font: 2rem/normal "PublicSans-Semibold"; }
+.box-highlights-right > .box-highlights-info > p { font: 2rem/normal "Inter-Bold"; }
 
   /*------- Our Highlights Section Ends -------*/
 
