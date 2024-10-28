@@ -716,7 +716,7 @@
 
 .bg-banner { overflow: hidden; }
 .banner-social-media-acc { bottom: 0; right: 30px; -webkit-transform: rotate(0); -moz-transform: rotate(0); -ms-transform: rotate(0); -o-transform: rotate(0); transform: rotate(0); }
-.banner-contact-social-media-acc-listing > li > span { font: 3rem/normal "PublicSans-Bold"; }
+.banner-contact-social-media-acc-listing > li > span { font: 1.8rem/normal "PublicSans-Bold"; }
 .box-banner-image-small-heart { left: -10px; }
 .box-banner-image-large-heart { right: -10px; }
 .box-banner-image-thumbs-up { bottom: 20px; left: -10px; }
