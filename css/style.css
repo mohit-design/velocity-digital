@@ -91,7 +91,7 @@ p { color: #626771; font: 1.8rem/2 "Inter-Medium"; }
 .menu-listing-desktop > li.active > span::after,
 .menu-listing-desktop > li > a:hover::after,
 .menu-listing-desktop > li > span:hover::after { opacity: 1; visibility: visible; }
-.sub-menu-listing-desktop { background-color: #ffffff; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: 3px 3px 16px 0 #00000030; left: 0; opacity: 0; position: absolute; top: 110%; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; visibility: hidden; width: 410px; z-index: 10; }
+.sub-menu-listing-desktop { background-color: #FFFFFF; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: 3px 3px 16px 0 #00000030; left: 0; opacity: 0; position: absolute; top: 110%; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; visibility: hidden; width: 410px; z-index: 10; }
 .sub-menu-listing-desktop.right { left: auto; width: 250px; right: 0; }
 .menu-listing-desktop > li:hover > a + .sub-menu-listing-desktop,
 .menu-listing-desktop > li:hover > span + .sub-menu-listing-desktop { opacity: 1; top: 60px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; visibility: visible; }
@@ -451,7 +451,7 @@ textarea.form-control-contact-us { height: 100px; resize: none; }
 .btn-susbscribe { background: linear-gradient(to right, #323540, #3E4650, #3E4650, #323540); background-size: 300% 100%; border: 0; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; color: #FFFFFF; display: block; font: 1.6rem/normal "Inter-SemiBold"; padding: 14px 28px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
 .btn-susbscribe > svg { margin-left: 5px; }
 .btn-susbscribe:hover,
-.btn-susbscribe:focus { background-position: 100% 0; color: #ffffff; }
+.btn-susbscribe:focus { background-position: 100% 0; color: #FFFFFF; }
 .copyright-info > p { color: #DEDEDE; font: 1.6rem/normal "Inter-Regular"; }
 .extra-pages-listing { display: -webkit-box; display: -webkit-flex; display: flex; justify-content: flex-end; }
 .extra-pages-listing > li { margin-right: 20px; }
