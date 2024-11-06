@@ -1200,7 +1200,7 @@ main { margin-top: 69px; }
 .menu-listing-mobile > li > span:hover,
 .menu-listing-mobile > li.active > i { color: #4A6EFF; }
 .menu-listing-mobile > li > i { color: #000000; font-size: 2.4rem; padding-left: 10px; }
-.sub-menu-listing-mobile { background-color: #000000; display: none; margin-top: 10px; max-height: 200px; overflow-y: auto; padding: 15px; }
+.sub-menu-listing-mobile { background-color: #000000; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; display: none; margin-top: 10px; max-height: 350px; overflow-y: auto; padding: 15px; }
 .sub-menu-listing-mobile > li { display: block; margin-bottom: 10px; }
 .sub-menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .sub-menu-listing-mobile > li > a { color: #F7F7F7; font: 2rem/1.4 "Inter-Medium"; text-transform: uppercase; }
